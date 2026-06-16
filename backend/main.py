@@ -4,7 +4,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
-from analyzer import analyze_ticker
+from analyzer import analyze_ticker, get_score_methodology
 from idx_stocks import get_all_stocks, get_all_tickers, normalize_ticker, refresh_from_remote
 from scan_cache import scan_cache
 
@@ -59,15 +59,21 @@ def scan_refresh():
     return {"started": started, **scan_cache.status()}
 
 
+@app.get("/api/score-info")
+def score_info():
+    return get_score_methodology()
+
+
 @app.get("/api/scan")
 def scan(
     page: int = Query(1, ge=1),
     limit: int = Query(50, ge=1, le=200),
     action: str | None = Query(None, description="BUY, SELL, atau HOLD"),
     q: str | None = Query(None, description="Cari kode/nama saham"),
-    sort: str = Query("score", description="score, change_pct, volume, code, price, rsi, news_sentiment, name"),
+    sort: str = Query("score", description="score, change_pct, volume, turnover, code, price, rsi"),
     order: str = Query("desc", description="asc atau desc"),
     refresh: bool = Query(False),
+    liquid_only: bool = Query(False, description="Hanya saham likuid (≥ Rp 5M/hari)"),
 ):
     if refresh or scan_cache.is_stale():
         scan_cache.start_scan(force=refresh)
@@ -87,6 +93,9 @@ def scan(
         }
 
     filtered = results
+    if liquid_only:
+        filtered = [r for r in filtered if r.get("liquidity_ok", False)]
+
     if action and action.upper() in ("BUY", "SELL", "HOLD"):
         filtered = [r for r in filtered if r["action"] == action.upper()]
 
@@ -103,6 +112,7 @@ def scan(
         "score": lambda x: x["score"],
         "change_pct": lambda x: x["change_pct"],
         "volume": lambda x: x["volume"],
+        "turnover": lambda x: x.get("avg_turnover", 0),
         "code": lambda x: x["code"],
         "price": lambda x: x["price"],
         "rsi": lambda x: x["rsi"] if x["rsi"] is not None else -1,

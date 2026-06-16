@@ -38,7 +38,7 @@ class ScanCache:
     def _is_stale_unlocked(self) -> bool:
         if not self._updated_at or self._status != "ready":
             return True
-        if self._results and "news_sentiment" not in self._results[0]:
+        if self._results and "turnover" not in self._results[0]:
             return True
         age = (datetime.now(timezone.utc) - self._updated_at).total_seconds()
         return age > CACHE_TTL_SECONDS

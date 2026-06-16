@@ -31,6 +31,7 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('')
   const [searchResult, setSearchResult] = useState(null)
   const [filter, setFilter] = useState('ALL')
+  const [liquidOnly, setLiquidOnly] = useState(false)
   const [sortField, setSortField] = useState('score')
   const [sortOrder, setSortOrder] = useState('desc')
   const [page, setPage] = useState(1)
@@ -50,6 +51,7 @@ export default function App() {
       })
       if (filter !== 'ALL') params.set('action', filter)
       if (searchQuery) params.set('q', searchQuery)
+      if (liquidOnly) params.set('liquid_only', 'true')
       if (forceRefresh) params.set('refresh', 'true')
 
       const res = await fetch(`${API}/scan?${params}`)
@@ -75,7 +77,7 @@ export default function App() {
       setLoading(false)
       return 'error'
     }
-  }, [page, filter, sortField, sortOrder, searchQuery, totalListed])
+  }, [page, filter, sortField, sortOrder, searchQuery, liquidOnly, totalListed])
 
   const handleSort = (field) => {
     if (field === sortField) {
@@ -91,7 +93,7 @@ export default function App() {
     setPage(1)
     setLoading(true)
     fetchScan(1)
-  }, [filter, sortField, sortOrder, searchQuery]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [filter, sortField, sortOrder, searchQuery, liquidOnly]) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (scanning) {
@@ -229,26 +231,37 @@ export default function App() {
         )}
 
         {!searchResult && (
-          <div className="flex gap-2 flex-wrap">
-            {[
-              { key: 'ALL', label: 'Semua', icon: BarChart3 },
-              { key: 'BUY', label: 'Buy', icon: TrendingUp },
-              { key: 'SELL', label: 'Sell', icon: TrendingDown },
-              { key: 'HOLD', label: 'Hold', icon: Activity },
-            ].map(({ key, label, icon: Icon }) => (
-              <button
-                key={key}
-                onClick={() => { setFilter(key); setPage(1) }}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm transition-all ${
-                  filter === key
-                    ? 'bg-surface-hover text-white border border-gray-600'
-                    : 'text-gray-500 hover:text-gray-300'
-                }`}
-              >
-                <Icon className="w-4 h-4" />
-                {label}
-              </button>
-            ))}
+          <div className="flex flex-wrap gap-2 items-center justify-between">
+            <div className="flex gap-2 flex-wrap">
+              {[
+                { key: 'ALL', label: 'Semua', icon: BarChart3 },
+                { key: 'BUY', label: 'Buy', icon: TrendingUp },
+                { key: 'SELL', label: 'Sell', icon: TrendingDown },
+                { key: 'HOLD', label: 'Hold', icon: Activity },
+              ].map(({ key, label, icon: Icon }) => (
+                <button
+                  key={key}
+                  onClick={() => { setFilter(key); setPage(1) }}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm transition-all ${
+                    filter === key
+                      ? 'bg-surface-hover text-white border border-gray-600'
+                      : 'text-gray-500 hover:text-gray-300'
+                  }`}
+                >
+                  <Icon className="w-4 h-4" />
+                  {label}
+                </button>
+              ))}
+            </div>
+            <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={liquidOnly}
+                onChange={(e) => { setLiquidOnly(e.target.checked); setPage(1) }}
+                className="rounded border-gray-600 bg-surface-card text-accent-green focus:ring-accent-green"
+              />
+              Hanya likuid (≥ Rp 5M/hari)
+            </label>
           </div>
         )}
 

@@ -1,6 +1,8 @@
-import { TrendingUp, TrendingDown, Minus, Volume2, Gauge } from 'lucide-react'
+import { TrendingUp, TrendingDown, Minus, Volume2, Gauge, Droplets } from 'lucide-react'
 import TradePlan from './TradePlan'
 import NewsPanel from './NewsPanel'
+import Sparkline from './Sparkline'
+import { ScoreBreakdown } from './ScoreTooltip'
 
 const actionStyles = {
   BUY: 'badge-buy',
@@ -16,7 +18,7 @@ const actionIcons = {
 
 function ScoreRing({ score }) {
   const color =
-    score >= 70 ? '#00d4aa' : score <= 35 ? '#ff4757' : '#ffa502'
+    score >= 75 ? '#00d4aa' : score <= 32 ? '#ff4757' : '#ffa502'
   const circumference = 2 * Math.PI * 36
   const offset = circumference - (score / 100) * circumference
 
@@ -77,9 +79,12 @@ export default function StockCard({ stock, featured = false }) {
         <span className={`text-sm font-mono font-medium ${isPositive ? 'text-emerald-400' : 'text-red-400'}`}>
           {isPositive ? '+' : ''}{stock.change_pct}%
         </span>
+        {stock.sparkline && (
+          <Sparkline data={stock.sparkline} width={100} height={32} />
+        )}
       </div>
 
-      <div className="grid grid-cols-3 gap-3 mb-4">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
         <div className="p-2 rounded-lg bg-surface-hover/50">
           <div className="flex items-center gap-1 text-xs text-gray-500 mb-1">
             <Gauge className="w-3 h-3" /> RSI
@@ -102,7 +107,23 @@ export default function StockCard({ stock, featured = false }) {
             {stock.atr_pct ? `${stock.atr_pct}%` : '—'}
           </span>
         </div>
+        <div className="p-2 rounded-lg bg-surface-hover/50">
+          <div className="flex items-center gap-1 text-xs text-gray-500 mb-1">
+            <Droplets className="w-3 h-3" /> Nilai/hari
+          </div>
+          <span className={`font-mono text-sm font-medium ${stock.liquidity_ok ? 'text-emerald-400' : 'text-amber-500'}`}>
+            {stock.avg_turnover
+              ? `Rp ${(stock.avg_turnover / 1e9).toFixed(1)}M`
+              : '—'}
+          </span>
+        </div>
       </div>
+
+      {stock.score_breakdown && (
+        <div className="mb-4">
+          <ScoreBreakdown breakdown={stock.score_breakdown} />
+        </div>
+      )}
 
       {stock.trade_plan && (
         <div className="mb-4">

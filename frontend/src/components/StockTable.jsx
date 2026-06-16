@@ -1,5 +1,7 @@
 import { TrendingUp, TrendingDown, Minus, ChevronUp, ChevronDown, ChevronsUpDown } from 'lucide-react'
 import { formatPrice } from './TradePlan'
+import Sparkline from './Sparkline'
+import { ScoreTooltipHeader } from './ScoreTooltip'
 
 const actionStyles = {
   BUY: 'text-emerald-400 bg-emerald-500/10',
@@ -13,31 +15,21 @@ const actionIcons = {
   HOLD: Minus,
 }
 
-const COLUMNS = [
-  { key: 'code', label: 'Kode', align: 'left', sortable: true },
-  { key: 'name', label: 'Nama Emiten', align: 'left', sortable: true, className: 'hidden md:table-cell' },
-  { key: 'price', label: 'Harga', align: 'right', sortable: true },
-  { key: 'change_pct', label: 'Chg%', align: 'right', sortable: true },
-  { key: 'rsi', label: 'RSI', align: 'right', sortable: true, className: 'hidden sm:table-cell' },
-  { key: 'volume', label: 'Vol', align: 'right', sortable: true, className: 'hidden lg:table-cell' },
-  { key: 'entry', label: 'Entry', align: 'right', sortable: false, className: 'hidden xl:table-cell' },
-  { key: 'sl', label: 'SL', align: 'right', sortable: false, className: 'hidden xl:table-cell' },
-  { key: 'tp1', label: 'TP1', align: 'right', sortable: false, className: 'hidden xl:table-cell' },
-  { key: 'news_sentiment', label: 'Berita', align: 'center', sortable: true, className: 'hidden lg:table-cell' },
-  { key: 'score', label: 'Skor', align: 'center', sortable: true },
-  { key: 'action', label: 'Sinyal', align: 'center', sortable: true },
-]
-
 function formatVolume(vol) {
   if (vol >= 1_000_000) return `${(vol / 1_000_000).toFixed(1)}M`
   if (vol >= 1_000) return `${(vol / 1_000).toFixed(0)}K`
   return vol.toLocaleString('id-ID')
 }
 
+function formatTurnover(val) {
+  if (!val) return '—'
+  if (val >= 1_000_000_000) return `${(val / 1_000_000_000).toFixed(1)}M`
+  if (val >= 1_000_000) return `${(val / 1_000_000).toFixed(0)}Jt`
+  return val.toLocaleString('id-ID')
+}
+
 function SortIcon({ column, sortField, sortOrder }) {
-  if (column !== sortField) {
-    return <ChevronsUpDown className="w-3 h-3 opacity-30" />
-  }
+  if (column !== sortField) return <ChevronsUpDown className="w-3 h-3 opacity-30" />
   return sortOrder === 'asc'
     ? <ChevronUp className="w-3 h-3 text-accent-green" />
     : <ChevronDown className="w-3 h-3 text-accent-green" />
@@ -57,12 +49,14 @@ function NewsBadge({ label, score }) {
   )
 }
 
-function SortableHeader({ col, sortField, sortOrder, onSort }) {
+function SortableHeader({ col, sortField, sortOrder, onSort, customLabel }) {
   const align = col.align === 'right' ? 'text-right' : col.align === 'center' ? 'text-center' : 'text-left'
   const base = `px-4 py-3 font-medium ${align} ${col.className || ''}`
 
+  const label = customLabel || col.label
+
   if (!col.sortable) {
-    return <th className={base}>{col.label}</th>
+    return <th className={base}>{label}</th>
   }
 
   return (
@@ -74,12 +68,25 @@ function SortableHeader({ col, sortField, sortOrder, onSort }) {
           col.align === 'right' ? 'flex-row-reverse ml-auto' : col.align === 'center' ? 'mx-auto' : ''
         } ${sortField === col.key ? 'text-accent-green' : ''}`}
       >
-        {col.label}
+        {label}
         <SortIcon column={col.key} sortField={sortField} sortOrder={sortOrder} />
       </button>
     </th>
   )
 }
+
+const COLUMNS = [
+  { key: 'sparkline', label: 'Trend', align: 'center', sortable: false, className: 'hidden md:table-cell w-24' },
+  { key: 'code', label: 'Kode', align: 'left', sortable: true },
+  { key: 'name', label: 'Nama', align: 'left', sortable: true, className: 'hidden lg:table-cell' },
+  { key: 'price', label: 'Harga', align: 'right', sortable: true },
+  { key: 'change_pct', label: 'Chg%', align: 'right', sortable: true },
+  { key: 'rsi', label: 'RSI', align: 'right', sortable: true, className: 'hidden sm:table-cell' },
+  { key: 'volume', label: 'Volume', align: 'right', sortable: true, className: 'hidden md:table-cell' },
+  { key: 'turnover', label: 'Nilai (Rp)', align: 'right', sortable: true, className: 'hidden lg:table-cell' },
+  { key: 'score', label: 'Skor', align: 'center', sortable: true, tooltip: true },
+  { key: 'action', label: 'Sinyal', align: 'center', sortable: true },
+]
 
 export default function StockTable({ stocks, onSelect, sortField, sortOrder, onSort }) {
   return (
@@ -95,6 +102,7 @@ export default function StockTable({ stocks, onSelect, sortField, sortOrder, onS
                 sortField={sortField}
                 sortOrder={sortOrder}
                 onSort={onSort}
+                customLabel={col.tooltip ? <ScoreTooltipHeader /> : undefined}
               />
             ))}
           </tr>
@@ -107,13 +115,21 @@ export default function StockTable({ stocks, onSelect, sortField, sortOrder, onS
               <tr
                 key={stock.ticker}
                 onClick={() => onSelect?.(stock)}
-                className="border-t border-gray-800/50 hover:bg-surface-hover/50 cursor-pointer transition-colors"
+                className={`border-t border-gray-800/50 hover:bg-surface-hover/50 cursor-pointer transition-colors ${
+                  !stock.liquidity_ok ? 'opacity-60' : ''
+                }`}
               >
                 <td className="px-4 py-3 text-gray-600 font-mono text-xs">{idx + 1}</td>
-                <td className="px-4 py-3">
-                  <span className="font-mono font-bold text-white">{stock.code || stock.ticker.replace('.JK', '')}</span>
+                <td className="px-4 py-3 hidden md:table-cell">
+                  <Sparkline data={stock.sparkline} />
                 </td>
-                <td className="px-4 py-3 text-gray-400 hidden md:table-cell max-w-[200px] truncate">
+                <td className="px-4 py-3">
+                  <span className="font-mono font-bold text-white">{stock.code}</span>
+                  {!stock.liquidity_ok && (
+                    <span className="block text-[10px] text-amber-500">illiquid</span>
+                  )}
+                </td>
+                <td className="px-4 py-3 text-gray-400 hidden lg:table-cell max-w-[180px] truncate">
                   {stock.name}
                 </td>
                 <td className="px-4 py-3 text-right font-mono whitespace-nowrap">
@@ -125,24 +141,15 @@ export default function StockTable({ stocks, onSelect, sortField, sortOrder, onS
                 <td className="px-4 py-3 text-right font-mono hidden sm:table-cell text-gray-300">
                   {stock.rsi ?? '—'}
                 </td>
-                <td className="px-4 py-3 text-right font-mono hidden lg:table-cell text-gray-400">
+                <td className="px-4 py-3 text-right font-mono hidden md:table-cell text-gray-400">
                   {formatVolume(stock.volume)}
                 </td>
-                <td className="px-4 py-3 text-right font-mono hidden xl:table-cell text-blue-400 whitespace-nowrap">
-                  {stock.trade_plan ? formatPrice(stock.trade_plan.entry, stock.currency) : '—'}
-                </td>
-                <td className="px-4 py-3 text-right font-mono hidden xl:table-cell text-red-400 whitespace-nowrap">
-                  {stock.trade_plan ? formatPrice(stock.trade_plan.sl, stock.currency) : '—'}
-                </td>
-                <td className="px-4 py-3 text-right font-mono hidden xl:table-cell text-emerald-400 whitespace-nowrap">
-                  {stock.trade_plan ? formatPrice(stock.trade_plan.tp1, stock.currency) : '—'}
-                </td>
-                <td className="px-4 py-3 text-center hidden lg:table-cell">
-                  <NewsBadge label={stock.news_label || 'neutral'} score={stock.news_sentiment ?? 0} />
+                <td className="px-4 py-3 text-right font-mono hidden lg:table-cell text-gray-300 whitespace-nowrap">
+                  {formatTurnover(stock.avg_turnover)}
                 </td>
                 <td className="px-4 py-3 text-center">
                   <span className={`inline-block font-mono font-bold text-xs px-2 py-1 rounded-md ${
-                    stock.score >= 70 ? 'text-emerald-400' : stock.score <= 35 ? 'text-red-400' : 'text-amber-400'
+                    stock.score >= 75 ? 'text-emerald-400' : stock.score <= 32 ? 'text-red-400' : 'text-amber-400'
                   }`}>
                     {stock.score}
                   </span>
