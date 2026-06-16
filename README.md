@@ -1,3 +1,14 @@
+---
+title: DayTrade Pro IHSG
+emoji: 📈
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+---
+
 # DayTrade Pro — Rekomendasi Saham Day Trading IHSG
 
 Aplikasi web untuk menganalisis **seluruh saham terdaftar IHSG** (~955 emiten) berdasarkan indikator teknikal day trading.
@@ -39,11 +50,13 @@ npm run dev
 
 Buka http://localhost:5173
 
-## Deploy Online
+## Deploy Online (Tanpa Kartu Kredit)
 
-**Recommended:** Full deploy di [Render.com](https://render.com) — frontend + backend satu URL.
+**Recommended:** [Hugging Face Spaces](https://huggingface.co/new-space) — gratis, tanpa kartu kredit.
 
-Lihat **[DEPLOY.md](DEPLOY.md)** (gratis, deploy otomatis dari GitHub push).
+Repo GitHub: https://github.com/sultanberuang/daytrade-ihsg
+
+Lihat **[DEPLOY.md](DEPLOY.md)** untuk panduan lengkap.
 
 **Catatan:** Scan pertama kali ~955 saham membutuhkan waktu 2–5 menit. Hasil di-cache selama 15 menit.
 

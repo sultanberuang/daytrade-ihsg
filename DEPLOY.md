@@ -1,89 +1,107 @@
-# Deploy DayTrade Pro — Full Render
+# Deploy DayTrade Pro — Tanpa Kartu Kredit
 
-Satu URL untuk frontend + backend via Docker.
+Render Blueprint sering meminta kartu kredit. Gunakan **Hugging Face Spaces** (gratis, tanpa kartu).
 
 ```
-https://daytrade-ihsg.onrender.com
+https://USERNAME-daytrade-ihsg.hf.space
 ├── /          → React UI
 └── /api/*     → FastAPI
 ```
 
 ---
 
-## Langkah Deploy
+## Hugging Face Spaces (Recommended)
 
-### Opsi A — Script otomatis (Windows)
+### 1. Buat akun Hugging Face
 
-```powershell
-cd d:\projeg\testing
-.\scripts\setup-github.ps1 -Username USERNAME_GITHUB_ANDA
-```
+Daftar gratis: [huggingface.co/join](https://huggingface.co/join) — **tanpa kartu kredit**.
 
-Atau double-click `scripts\setup-github.bat`
+### 2. Buat Space baru
 
-Script akan:
-1. Buka browser ke halaman buat repo GitHub
-2. Menunggu Anda klik **Create repository**
-3. Push kode otomatis ke GitHub
+1. Buka [huggingface.co/new-space](https://huggingface.co/new-space)
+2. Isi:
+   | Field | Value |
+   |-------|-------|
+   | Space name | `daytrade-ihsg` |
+   | SDK | **Docker** |
+   | Visibility | Public |
+3. Klik **Create Space**
 
-### Opsi B — Manual
+### 3. Push kode ke Space
 
-#### 1. Buat repo di GitHub
-
-Buka: https://github.com/new?name=daytrade-ihsg
-
-- **Repository name:** `daytrade-ihsg`
-- **Public**
-- **Jangan** centang "Add a README file"
-- Klik **Create repository**
-
-#### 2. Push kode
+Di PowerShell (ganti `USERNAME` dengan username Hugging Face Anda):
 
 ```powershell
 cd d:\projeg\testing
-git remote add origin https://github.com/USERNAME/daytrade-ihsg.git
-git branch -M main
-git push -u origin main
+git remote add space https://huggingface.co/spaces/USERNAME/daytrade-ihsg
+git push space main
 ```
 
-Ganti `USERNAME` dengan username GitHub Anda.
+Saat diminta login, gunakan **Access Token** Hugging Face:
+- [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
+- Create token → permission **Write**
+- Username: `USERNAME`
+- Password: paste token
 
-### 3. Deploy di Render
+### 4. Tunggu build
 
-1. Buka [dashboard.render.com](https://dashboard.render.com)
-2. **New → Blueprint**
-3. Connect repo GitHub → pilih repo ini
-4. Klik **Apply** — Render build Docker image (~5–10 menit)
-5. App live di URL Render
+Space → tab **Logs** → tunggu `Application startup complete` (~5–10 menit).
 
-Tes: `https://YOUR-APP.onrender.com/api/health`
+App live di:
+```
+https://USERNAME-daytrade-ihsg.hf.space
+```
+
+Tes: `https://USERNAME-daytrade-ihsg.hf.space/api/health`
 
 ---
 
-## Update
+## Update Aplikasi
 
-Setiap `git push` ke `main` → Render otomatis redeploy.
+```powershell
+git push origin main    # GitHub
+git push space main     # Hugging Face (redeploy otomatis)
+```
 
 ---
 
-## Catatan Plan Gratis
+## Catatan Plan Gratis HF
 
-- Service **sleep** setelah ~15 menit idle
-- Request pertama **~30–60 detik** (cold start)
-- Scan 955 saham ~3–5 menit
+| | |
+|---|---|
+| **Biaya** | Gratis, tanpa kartu kredit |
+| **Sleep** | Tidur setelah ~1 jam idle |
+| **Cold start** | ~30 detik saat bangun |
+| **Scan 955 saham** | ~3–5 menit |
+
+---
+
+## Alternatif Lain (Tanpa Kartu)
+
+| Platform | URL | Catatan |
+|----------|-----|---------|
+| **Hugging Face Spaces** | hf.space | ✅ Recommended, Docker |
+| **PythonAnywhere** | pythonanywhere.com | Free tier, manual setup |
+| **GitHub Pages** | github.io | Frontend saja, perlu backend terpisah |
+
+---
+
+## Render (Butuh Kartu Kredit)
+
+Render free tier kadang bisa lewat **New → Web Service** (bukan Blueprint), tapi tetap sering minta verifikasi kartu.
+
+Jika punya kartu nanti:
+1. [dashboard.render.com](https://dashboard.render.com) → **New → Web Service**
+2. Connect repo `sultanberuang/daytrade-ihsg`
+3. Runtime: **Docker**
 
 ---
 
 ## Dev Lokal
 
 ```powershell
-# Dev mode (hot reload)
 cd backend && venv\Scripts\uvicorn main:app --reload --port 8000
 cd frontend && npm run dev
-
-# Production lokal (Docker)
-docker build -t daytrade .
-docker run -p 8000:8000 daytrade
 ```
 
-Buka http://localhost:8000
+Buka http://localhost:5173
