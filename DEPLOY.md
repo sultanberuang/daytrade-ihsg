@@ -12,18 +12,43 @@ https://daytrade-ihsg.onrender.com
 
 ## Langkah Deploy
 
-### 1. Push ke GitHub
+### Opsi A — Script otomatis (Windows)
 
 ```powershell
 cd d:\projeg\testing
-git add .
-git commit -m "DayTrade Pro IHSG"
+.\scripts\setup-github.ps1 -Username USERNAME_GITHUB_ANDA
+```
+
+Atau double-click `scripts\setup-github.bat`
+
+Script akan:
+1. Buka browser ke halaman buat repo GitHub
+2. Menunggu Anda klik **Create repository**
+3. Push kode otomatis ke GitHub
+
+### Opsi B — Manual
+
+#### 1. Buat repo di GitHub
+
+Buka: https://github.com/new?name=daytrade-ihsg
+
+- **Repository name:** `daytrade-ihsg`
+- **Public**
+- **Jangan** centang "Add a README file"
+- Klik **Create repository**
+
+#### 2. Push kode
+
+```powershell
+cd d:\projeg\testing
+git remote add origin https://github.com/USERNAME/daytrade-ihsg.git
 git branch -M main
-git remote add origin https://github.com/USERNAME/REPO.git
 git push -u origin main
 ```
 
-### 2. Deploy di Render
+Ganti `USERNAME` dengan username GitHub Anda.
+
+### 3. Deploy di Render
 
 1. Buka [dashboard.render.com](https://dashboard.render.com)
 2. **New → Blueprint**
