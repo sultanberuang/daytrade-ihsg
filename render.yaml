@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: daytrade-ihsg
+    runtime: docker
+    region: singapore
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health

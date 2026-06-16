@@ -1,0 +1,3827 @@
+{
+  "source": "IHSG",
+  "count": 955,
+  "updated": "2025-06",
+  "stocks": [
+    {
+      "code": "AADI",
+      "ticker": "AADI.JK"
+    },
+    {
+      "code": "AALI",
+      "ticker": "AALI.JK"
+    },
+    {
+      "code": "ABBA",
+      "ticker": "ABBA.JK"
+    },
+    {
+      "code": "ABDA",
+      "ticker": "ABDA.JK"
+    },
+    {
+      "code": "ABMM",
+      "ticker": "ABMM.JK"
+    },
+    {
+      "code": "ACES",
+      "ticker": "ACES.JK"
+    },
+    {
+      "code": "ACRO",
+      "ticker": "ACRO.JK"
+    },
+    {
+      "code": "ACST",
+      "ticker": "ACST.JK"
+    },
+    {
+      "code": "ADCP",
+      "ticker": "ADCP.JK"
+    },
+    {
+      "code": "ADES",
+      "ticker": "ADES.JK"
+    },
+    {
+      "code": "ADHI",
+      "ticker": "ADHI.JK"
+    },
+    {
+      "code": "ADMF",
+      "ticker": "ADMF.JK"
+    },
+    {
+      "code": "ADMG",
+      "ticker": "ADMG.JK"
+    },
+    {
+      "code": "ADMR",
+      "ticker": "ADMR.JK"
+    },
+    {
+      "code": "ADRO",
+      "ticker": "ADRO.JK"
+    },
+    {
+      "code": "AEGS",
+      "ticker": "AEGS.JK"
+    },
+    {
+      "code": "AGAR",
+      "ticker": "AGAR.JK"
+    },
+    {
+      "code": "AGII",
+      "ticker": "AGII.JK"
+    },
+    {
+      "code": "AGRO",
+      "ticker": "AGRO.JK"
+    },
+    {
+      "code": "AGRS",
+      "ticker": "AGRS.JK"
+    },
+    {
+      "code": "AHAP",
+      "ticker": "AHAP.JK"
+    },
+    {
+      "code": "AIMS",
+      "ticker": "AIMS.JK"
+    },
+    {
+      "code": "AISA",
+      "ticker": "AISA.JK"
+    },
+    {
+      "code": "AKKU",
+      "ticker": "AKKU.JK"
+    },
+    {
+      "code": "AKPI",
+      "ticker": "AKPI.JK"
+    },
+    {
+      "code": "AKRA",
+      "ticker": "AKRA.JK"
+    },
+    {
+      "code": "AKSI",
+      "ticker": "AKSI.JK"
+    },
+    {
+      "code": "ALDO",
+      "ticker": "ALDO.JK"
+    },
+    {
+      "code": "ALII",
+      "ticker": "ALII.JK"
+    },
+    {
+      "code": "ALKA",
+      "ticker": "ALKA.JK"
+    },
+    {
+      "code": "ALMI",
+      "ticker": "ALMI.JK"
+    },
+    {
+      "code": "ALTO",
+      "ticker": "ALTO.JK"
+    },
+    {
+      "code": "AMAG",
+      "ticker": "AMAG.JK"
+    },
+    {
+      "code": "AMAN",
+      "ticker": "AMAN.JK"
+    },
+    {
+      "code": "AMAR",
+      "ticker": "AMAR.JK"
+    },
+    {
+      "code": "AMFG",
+      "ticker": "AMFG.JK"
+    },
+    {
+      "code": "AMIN",
+      "ticker": "AMIN.JK"
+    },
+    {
+      "code": "AMMN",
+      "ticker": "AMMN.JK"
+    },
+    {
+      "code": "AMMS",
+      "ticker": "AMMS.JK"
+    },
+    {
+      "code": "AMOR",
+      "ticker": "AMOR.JK"
+    },
+    {
+      "code": "AMRT",
+      "ticker": "AMRT.JK"
+    },
+    {
+      "code": "ANDI",
+      "ticker": "ANDI.JK"
+    },
+    {
+      "code": "ANJT",
+      "ticker": "ANJT.JK"
+    },
+    {
+      "code": "ANTM",
+      "ticker": "ANTM.JK"
+    },
+    {
+      "code": "APEX",
+      "ticker": "APEX.JK"
+    },
+    {
+      "code": "APIC",
+      "ticker": "APIC.JK"
+    },
+    {
+      "code": "APII",
+      "ticker": "APII.JK"
+    },
+    {
+      "code": "APLI",
+      "ticker": "APLI.JK"
+    },
+    {
+      "code": "APLN",
+      "ticker": "APLN.JK"
+    },
+    {
+      "code": "ARCI",
+      "ticker": "ARCI.JK"
+    },
+    {
+      "code": "AREA",
+      "ticker": "AREA.JK"
+    },
+    {
+      "code": "ARGO",
+      "ticker": "ARGO.JK"
+    },
+    {
+      "code": "ARII",
+      "ticker": "ARII.JK"
+    },
+    {
+      "code": "ARKA",
+      "ticker": "ARKA.JK"
+    },
+    {
+      "code": "ARKO",
+      "ticker": "ARKO.JK"
+    },
+    {
+      "code": "ARMY",
+      "ticker": "ARMY.JK"
+    },
+    {
+      "code": "ARNA",
+      "ticker": "ARNA.JK"
+    },
+    {
+      "code": "ARTA",
+      "ticker": "ARTA.JK"
+    },
+    {
+      "code": "ARTI",
+      "ticker": "ARTI.JK"
+    },
+    {
+      "code": "ARTO",
+      "ticker": "ARTO.JK"
+    },
+    {
+      "code": "ASBI",
+      "ticker": "ASBI.JK"
+    },
+    {
+      "code": "ASDM",
+      "ticker": "ASDM.JK"
+    },
+    {
+      "code": "ASGR",
+      "ticker": "ASGR.JK"
+    },
+    {
+      "code": "ASHA",
+      "ticker": "ASHA.JK"
+    },
+    {
+      "code": "ASII",
+      "ticker": "ASII.JK"
+    },
+    {
+      "code": "ASJT",
+      "ticker": "ASJT.JK"
+    },
+    {
+      "code": "ASLC",
+      "ticker": "ASLC.JK"
+    },
+    {
+      "code": "ASLI",
+      "ticker": "ASLI.JK"
+    },
+    {
+      "code": "ASMI",
+      "ticker": "ASMI.JK"
+    },
+    {
+      "code": "ASPI",
+      "ticker": "ASPI.JK"
+    },
+    {
+      "code": "ASPR",
+      "ticker": "ASPR.JK"
+    },
+    {
+      "code": "ASRI",
+      "ticker": "ASRI.JK"
+    },
+    {
+      "code": "ASRM",
+      "ticker": "ASRM.JK"
+    },
+    {
+      "code": "ASSA",
+      "ticker": "ASSA.JK"
+    },
+    {
+      "code": "ATAP",
+      "ticker": "ATAP.JK"
+    },
+    {
+      "code": "ATIC",
+      "ticker": "ATIC.JK"
+    },
+    {
+      "code": "ATLA",
+      "ticker": "ATLA.JK"
+    },
+    {
+      "code": "AUTO",
+      "ticker": "AUTO.JK"
+    },
+    {
+      "code": "AVIA",
+      "ticker": "AVIA.JK"
+    },
+    {
+      "code": "AWAN",
+      "ticker": "AWAN.JK"
+    },
+    {
+      "code": "AXIO",
+      "ticker": "AXIO.JK"
+    },
+    {
+      "code": "AYAM",
+      "ticker": "AYAM.JK"
+    },
+    {
+      "code": "AYLS",
+      "ticker": "AYLS.JK"
+    },
+    {
+      "code": "BABP",
+      "ticker": "BABP.JK"
+    },
+    {
+      "code": "BABY",
+      "ticker": "BABY.JK"
+    },
+    {
+      "code": "BACA",
+      "ticker": "BACA.JK"
+    },
+    {
+      "code": "BAIK",
+      "ticker": "BAIK.JK"
+    },
+    {
+      "code": "BAJA",
+      "ticker": "BAJA.JK"
+    },
+    {
+      "code": "BALI",
+      "ticker": "BALI.JK"
+    },
+    {
+      "code": "BANK",
+      "ticker": "BANK.JK"
+    },
+    {
+      "code": "BAPA",
+      "ticker": "BAPA.JK"
+    },
+    {
+      "code": "BAPI",
+      "ticker": "BAPI.JK"
+    },
+    {
+      "code": "BATA",
+      "ticker": "BATA.JK"
+    },
+    {
+      "code": "BATR",
+      "ticker": "BATR.JK"
+    },
+    {
+      "code": "BAUT",
+      "ticker": "BAUT.JK"
+    },
+    {
+      "code": "BAYU",
+      "ticker": "BAYU.JK"
+    },
+    {
+      "code": "BBCA",
+      "ticker": "BBCA.JK"
+    },
+    {
+      "code": "BBHI",
+      "ticker": "BBHI.JK"
+    },
+    {
+      "code": "BBKP",
+      "ticker": "BBKP.JK"
+    },
+    {
+      "code": "BBLD",
+      "ticker": "BBLD.JK"
+    },
+    {
+      "code": "BBMD",
+      "ticker": "BBMD.JK"
+    },
+    {
+      "code": "BBNI",
+      "ticker": "BBNI.JK"
+    },
+    {
+      "code": "BBRI",
+      "ticker": "BBRI.JK"
+    },
+    {
+      "code": "BBRM",
+      "ticker": "BBRM.JK"
+    },
+    {
+      "code": "BBSI",
+      "ticker": "BBSI.JK"
+    },
+    {
+      "code": "BBSS",
+      "ticker": "BBSS.JK"
+    },
+    {
+      "code": "BBTN",
+      "ticker": "BBTN.JK"
+    },
+    {
+      "code": "BBYB",
+      "ticker": "BBYB.JK"
+    },
+    {
+      "code": "BCAP",
+      "ticker": "BCAP.JK"
+    },
+    {
+      "code": "BCIC",
+      "ticker": "BCIC.JK"
+    },
+    {
+      "code": "BCIP",
+      "ticker": "BCIP.JK"
+    },
+    {
+      "code": "BDKR",
+      "ticker": "BDKR.JK"
+    },
+    {
+      "code": "BDMN",
+      "ticker": "BDMN.JK"
+    },
+    {
+      "code": "BEBS",
+      "ticker": "BEBS.JK"
+    },
+    {
+      "code": "BEEF",
+      "ticker": "BEEF.JK"
+    },
+    {
+      "code": "BEER",
+      "ticker": "BEER.JK"
+    },
+    {
+      "code": "BEKS",
+      "ticker": "BEKS.JK"
+    },
+    {
+      "code": "BELI",
+      "ticker": "BELI.JK"
+    },
+    {
+      "code": "BELL",
+      "ticker": "BELL.JK"
+    },
+    {
+      "code": "BESS",
+      "ticker": "BESS.JK"
+    },
+    {
+      "code": "BEST",
+      "ticker": "BEST.JK"
+    },
+    {
+      "code": "BFIN",
+      "ticker": "BFIN.JK"
+    },
+    {
+      "code": "BGTG",
+      "ticker": "BGTG.JK"
+    },
+    {
+      "code": "BHAT",
+      "ticker": "BHAT.JK"
+    },
+    {
+      "code": "BHIT",
+      "ticker": "BHIT.JK"
+    },
+    {
+      "code": "BIKA",
+      "ticker": "BIKA.JK"
+    },
+    {
+      "code": "BIKE",
+      "ticker": "BIKE.JK"
+    },
+    {
+      "code": "BIMA",
+      "ticker": "BIMA.JK"
+    },
+    {
+      "code": "BINA",
+      "ticker": "BINA.JK"
+    },
+    {
+      "code": "BINO",
+      "ticker": "BINO.JK"
+    },
+    {
+      "code": "BIPI",
+      "ticker": "BIPI.JK"
+    },
+    {
+      "code": "BIPP",
+      "ticker": "BIPP.JK"
+    },
+    {
+      "code": "BIRD",
+      "ticker": "BIRD.JK"
+    },
+    {
+      "code": "BISI",
+      "ticker": "BISI.JK"
+    },
+    {
+      "code": "BJBR",
+      "ticker": "BJBR.JK"
+    },
+    {
+      "code": "BJTM",
+      "ticker": "BJTM.JK"
+    },
+    {
+      "code": "BKDP",
+      "ticker": "BKDP.JK"
+    },
+    {
+      "code": "BKSL",
+      "ticker": "BKSL.JK"
+    },
+    {
+      "code": "BKSW",
+      "ticker": "BKSW.JK"
+    },
+    {
+      "code": "BLES",
+      "ticker": "BLES.JK"
+    },
+    {
+      "code": "BLOG",
+      "ticker": "BLOG.JK"
+    },
+    {
+      "code": "BLTA",
+      "ticker": "BLTA.JK"
+    },
+    {
+      "code": "BLTZ",
+      "ticker": "BLTZ.JK"
+    },
+    {
+      "code": "BLUE",
+      "ticker": "BLUE.JK"
+    },
+    {
+      "code": "BMAS",
+      "ticker": "BMAS.JK"
+    },
+    {
+      "code": "BMBL",
+      "ticker": "BMBL.JK"
+    },
+    {
+      "code": "BMHS",
+      "ticker": "BMHS.JK"
+    },
+    {
+      "code": "BMRI",
+      "ticker": "BMRI.JK"
+    },
+    {
+      "code": "BMSR",
+      "ticker": "BMSR.JK"
+    },
+    {
+      "code": "BMTR",
+      "ticker": "BMTR.JK"
+    },
+    {
+      "code": "BNBA",
+      "ticker": "BNBA.JK"
+    },
+    {
+      "code": "BNBR",
+      "ticker": "BNBR.JK"
+    },
+    {
+      "code": "BNGA",
+      "ticker": "BNGA.JK"
+    },
+    {
+      "code": "BNII",
+      "ticker": "BNII.JK"
+    },
+    {
+      "code": "BNLI",
+      "ticker": "BNLI.JK"
+    },
+    {
+      "code": "BOAT",
+      "ticker": "BOAT.JK"
+    },
+    {
+      "code": "BOBA",
+      "ticker": "BOBA.JK"
+    },
+    {
+      "code": "BOGA",
+      "ticker": "BOGA.JK"
+    },
+    {
+      "code": "BOLA",
+      "ticker": "BOLA.JK"
+    },
+    {
+      "code": "BOLT",
+      "ticker": "BOLT.JK"
+    },
+    {
+      "code": "BOSS",
+      "ticker": "BOSS.JK"
+    },
+    {
+      "code": "BPFI",
+      "ticker": "BPFI.JK"
+    },
+    {
+      "code": "BPII",
+      "ticker": "BPII.JK"
+    },
+    {
+      "code": "BPTR",
+      "ticker": "BPTR.JK"
+    },
+    {
+      "code": "BRAM",
+      "ticker": "BRAM.JK"
+    },
+    {
+      "code": "BREN",
+      "ticker": "BREN.JK"
+    },
+    {
+      "code": "BRIS",
+      "ticker": "BRIS.JK"
+    },
+    {
+      "code": "BRMS",
+      "ticker": "BRMS.JK"
+    },
+    {
+      "code": "BRNA",
+      "ticker": "BRNA.JK"
+    },
+    {
+      "code": "BRPT",
+      "ticker": "BRPT.JK"
+    },
+    {
+      "code": "BRRC",
+      "ticker": "BRRC.JK"
+    },
+    {
+      "code": "BSBK",
+      "ticker": "BSBK.JK"
+    },
+    {
+      "code": "BSDE",
+      "ticker": "BSDE.JK"
+    },
+    {
+      "code": "BSIM",
+      "ticker": "BSIM.JK"
+    },
+    {
+      "code": "BSML",
+      "ticker": "BSML.JK"
+    },
+    {
+      "code": "BSSR",
+      "ticker": "BSSR.JK"
+    },
+    {
+      "code": "BSWD",
+      "ticker": "BSWD.JK"
+    },
+    {
+      "code": "BTEK",
+      "ticker": "BTEK.JK"
+    },
+    {
+      "code": "BTEL",
+      "ticker": "BTEL.JK"
+    },
+    {
+      "code": "BTON",
+      "ticker": "BTON.JK"
+    },
+    {
+      "code": "BTPN",
+      "ticker": "BTPN.JK"
+    },
+    {
+      "code": "BTPS",
+      "ticker": "BTPS.JK"
+    },
+    {
+      "code": "BUAH",
+      "ticker": "BUAH.JK"
+    },
+    {
+      "code": "BUDI",
+      "ticker": "BUDI.JK"
+    },
+    {
+      "code": "BUKA",
+      "ticker": "BUKA.JK"
+    },
+    {
+      "code": "BUKK",
+      "ticker": "BUKK.JK"
+    },
+    {
+      "code": "BULL",
+      "ticker": "BULL.JK"
+    },
+    {
+      "code": "BUMI",
+      "ticker": "BUMI.JK"
+    },
+    {
+      "code": "BUVA",
+      "ticker": "BUVA.JK"
+    },
+    {
+      "code": "BVIC",
+      "ticker": "BVIC.JK"
+    },
+    {
+      "code": "BWPT",
+      "ticker": "BWPT.JK"
+    },
+    {
+      "code": "BYAN",
+      "ticker": "BYAN.JK"
+    },
+    {
+      "code": "CAKK",
+      "ticker": "CAKK.JK"
+    },
+    {
+      "code": "CAMP",
+      "ticker": "CAMP.JK"
+    },
+    {
+      "code": "CANI",
+      "ticker": "CANI.JK"
+    },
+    {
+      "code": "CARE",
+      "ticker": "CARE.JK"
+    },
+    {
+      "code": "CARS",
+      "ticker": "CARS.JK"
+    },
+    {
+      "code": "CASA",
+      "ticker": "CASA.JK"
+    },
+    {
+      "code": "CASH",
+      "ticker": "CASH.JK"
+    },
+    {
+      "code": "CASS",
+      "ticker": "CASS.JK"
+    },
+    {
+      "code": "CBDK",
+      "ticker": "CBDK.JK"
+    },
+    {
+      "code": "CBMF",
+      "ticker": "CBMF.JK"
+    },
+    {
+      "code": "CBPE",
+      "ticker": "CBPE.JK"
+    },
+    {
+      "code": "CBRE",
+      "ticker": "CBRE.JK"
+    },
+    {
+      "code": "CBUT",
+      "ticker": "CBUT.JK"
+    },
+    {
+      "code": "CCSI",
+      "ticker": "CCSI.JK"
+    },
+    {
+      "code": "CDIA",
+      "ticker": "CDIA.JK"
+    },
+    {
+      "code": "CEKA",
+      "ticker": "CEKA.JK"
+    },
+    {
+      "code": "CENT",
+      "ticker": "CENT.JK"
+    },
+    {
+      "code": "CFIN",
+      "ticker": "CFIN.JK"
+    },
+    {
+      "code": "CGAS",
+      "ticker": "CGAS.JK"
+    },
+    {
+      "code": "CHEK",
+      "ticker": "CHEK.JK"
+    },
+    {
+      "code": "CHEM",
+      "ticker": "CHEM.JK"
+    },
+    {
+      "code": "CHIP",
+      "ticker": "CHIP.JK"
+    },
+    {
+      "code": "CINT",
+      "ticker": "CINT.JK"
+    },
+    {
+      "code": "CITA",
+      "ticker": "CITA.JK"
+    },
+    {
+      "code": "CITY",
+      "ticker": "CITY.JK"
+    },
+    {
+      "code": "CLAY",
+      "ticker": "CLAY.JK"
+    },
+    {
+      "code": "CLEO",
+      "ticker": "CLEO.JK"
+    },
+    {
+      "code": "CLPI",
+      "ticker": "CLPI.JK"
+    },
+    {
+      "code": "CMNP",
+      "ticker": "CMNP.JK"
+    },
+    {
+      "code": "CMNT",
+      "ticker": "CMNT.JK"
+    },
+    {
+      "code": "CMPP",
+      "ticker": "CMPP.JK"
+    },
+    {
+      "code": "CMRY",
+      "ticker": "CMRY.JK"
+    },
+    {
+      "code": "CNKO",
+      "ticker": "CNKO.JK"
+    },
+    {
+      "code": "CNMA",
+      "ticker": "CNMA.JK"
+    },
+    {
+      "code": "CNTX",
+      "ticker": "CNTX.JK"
+    },
+    {
+      "code": "COAL",
+      "ticker": "COAL.JK"
+    },
+    {
+      "code": "COCO",
+      "ticker": "COCO.JK"
+    },
+    {
+      "code": "COIN",
+      "ticker": "COIN.JK"
+    },
+    {
+      "code": "COWL",
+      "ticker": "COWL.JK"
+    },
+    {
+      "code": "CPIN",
+      "ticker": "CPIN.JK"
+    },
+    {
+      "code": "CPRI",
+      "ticker": "CPRI.JK"
+    },
+    {
+      "code": "CPRO",
+      "ticker": "CPRO.JK"
+    },
+    {
+      "code": "CRAB",
+      "ticker": "CRAB.JK"
+    },
+    {
+      "code": "CRSN",
+      "ticker": "CRSN.JK"
+    },
+    {
+      "code": "CSAP",
+      "ticker": "CSAP.JK"
+    },
+    {
+      "code": "CSIS",
+      "ticker": "CSIS.JK"
+    },
+    {
+      "code": "CSMI",
+      "ticker": "CSMI.JK"
+    },
+    {
+      "code": "CSRA",
+      "ticker": "CSRA.JK"
+    },
+    {
+      "code": "CTBN",
+      "ticker": "CTBN.JK"
+    },
+    {
+      "code": "CTRA",
+      "ticker": "CTRA.JK"
+    },
+    {
+      "code": "CTTH",
+      "ticker": "CTTH.JK"
+    },
+    {
+      "code": "CUAN",
+      "ticker": "CUAN.JK"
+    },
+    {
+      "code": "CYBR",
+      "ticker": "CYBR.JK"
+    },
+    {
+      "code": "DAAZ",
+      "ticker": "DAAZ.JK"
+    },
+    {
+      "code": "DADA",
+      "ticker": "DADA.JK"
+    },
+    {
+      "code": "DART",
+      "ticker": "DART.JK"
+    },
+    {
+      "code": "DATA",
+      "ticker": "DATA.JK"
+    },
+    {
+      "code": "DAYA",
+      "ticker": "DAYA.JK"
+    },
+    {
+      "code": "DCII",
+      "ticker": "DCII.JK"
+    },
+    {
+      "code": "DEAL",
+      "ticker": "DEAL.JK"
+    },
+    {
+      "code": "DEFI",
+      "ticker": "DEFI.JK"
+    },
+    {
+      "code": "DEPO",
+      "ticker": "DEPO.JK"
+    },
+    {
+      "code": "DEWA",
+      "ticker": "DEWA.JK"
+    },
+    {
+      "code": "DEWI",
+      "ticker": "DEWI.JK"
+    },
+    {
+      "code": "DFAM",
+      "ticker": "DFAM.JK"
+    },
+    {
+      "code": "DGIK",
+      "ticker": "DGIK.JK"
+    },
+    {
+      "code": "DGNS",
+      "ticker": "DGNS.JK"
+    },
+    {
+      "code": "DGWG",
+      "ticker": "DGWG.JK"
+    },
+    {
+      "code": "DIGI",
+      "ticker": "DIGI.JK"
+    },
+    {
+      "code": "DILD",
+      "ticker": "DILD.JK"
+    },
+    {
+      "code": "DIVA",
+      "ticker": "DIVA.JK"
+    },
+    {
+      "code": "DKFT",
+      "ticker": "DKFT.JK"
+    },
+    {
+      "code": "DKHH",
+      "ticker": "DKHH.JK"
+    },
+    {
+      "code": "DLTA",
+      "ticker": "DLTA.JK"
+    },
+    {
+      "code": "DMAS",
+      "ticker": "DMAS.JK"
+    },
+    {
+      "code": "DMMX",
+      "ticker": "DMMX.JK"
+    },
+    {
+      "code": "DMND",
+      "ticker": "DMND.JK"
+    },
+    {
+      "code": "DNAR",
+      "ticker": "DNAR.JK"
+    },
+    {
+      "code": "DNET",
+      "ticker": "DNET.JK"
+    },
+    {
+      "code": "DOID",
+      "ticker": "DOID.JK"
+    },
+    {
+      "code": "DOOH",
+      "ticker": "DOOH.JK"
+    },
+    {
+      "code": "DOSS",
+      "ticker": "DOSS.JK"
+    },
+    {
+      "code": "DPNS",
+      "ticker": "DPNS.JK"
+    },
+    {
+      "code": "DPUM",
+      "ticker": "DPUM.JK"
+    },
+    {
+      "code": "DRMA",
+      "ticker": "DRMA.JK"
+    },
+    {
+      "code": "DSFI",
+      "ticker": "DSFI.JK"
+    },
+    {
+      "code": "DSNG",
+      "ticker": "DSNG.JK"
+    },
+    {
+      "code": "DSSA",
+      "ticker": "DSSA.JK"
+    },
+    {
+      "code": "DUCK",
+      "ticker": "DUCK.JK"
+    },
+    {
+      "code": "DUTI",
+      "ticker": "DUTI.JK"
+    },
+    {
+      "code": "DVLA",
+      "ticker": "DVLA.JK"
+    },
+    {
+      "code": "DWGL",
+      "ticker": "DWGL.JK"
+    },
+    {
+      "code": "DYAN",
+      "ticker": "DYAN.JK"
+    },
+    {
+      "code": "EAST",
+      "ticker": "EAST.JK"
+    },
+    {
+      "code": "ECII",
+      "ticker": "ECII.JK"
+    },
+    {
+      "code": "EDGE",
+      "ticker": "EDGE.JK"
+    },
+    {
+      "code": "EKAD",
+      "ticker": "EKAD.JK"
+    },
+    {
+      "code": "ELIT",
+      "ticker": "ELIT.JK"
+    },
+    {
+      "code": "ELPI",
+      "ticker": "ELPI.JK"
+    },
+    {
+      "code": "ELSA",
+      "ticker": "ELSA.JK"
+    },
+    {
+      "code": "ELTY",
+      "ticker": "ELTY.JK"
+    },
+    {
+      "code": "EMAS",
+      "ticker": "EMAS.JK"
+    },
+    {
+      "code": "EMDE",
+      "ticker": "EMDE.JK"
+    },
+    {
+      "code": "EMTK",
+      "ticker": "EMTK.JK"
+    },
+    {
+      "code": "ENAK",
+      "ticker": "ENAK.JK"
+    },
+    {
+      "code": "ENRG",
+      "ticker": "ENRG.JK"
+    },
+    {
+      "code": "ENVY",
+      "ticker": "ENVY.JK"
+    },
+    {
+      "code": "ENZO",
+      "ticker": "ENZO.JK"
+    },
+    {
+      "code": "EPAC",
+      "ticker": "EPAC.JK"
+    },
+    {
+      "code": "EPMT",
+      "ticker": "EPMT.JK"
+    },
+    {
+      "code": "ERAA",
+      "ticker": "ERAA.JK"
+    },
+    {
+      "code": "ERAL",
+      "ticker": "ERAL.JK"
+    },
+    {
+      "code": "ERTX",
+      "ticker": "ERTX.JK"
+    },
+    {
+      "code": "ESIP",
+      "ticker": "ESIP.JK"
+    },
+    {
+      "code": "ESSA",
+      "ticker": "ESSA.JK"
+    },
+    {
+      "code": "ESTA",
+      "ticker": "ESTA.JK"
+    },
+    {
+      "code": "ESTI",
+      "ticker": "ESTI.JK"
+    },
+    {
+      "code": "ETWA",
+      "ticker": "ETWA.JK"
+    },
+    {
+      "code": "EURO",
+      "ticker": "EURO.JK"
+    },
+    {
+      "code": "EXCL",
+      "ticker": "EXCL.JK"
+    },
+    {
+      "code": "FAPA",
+      "ticker": "FAPA.JK"
+    },
+    {
+      "code": "FAST",
+      "ticker": "FAST.JK"
+    },
+    {
+      "code": "FASW",
+      "ticker": "FASW.JK"
+    },
+    {
+      "code": "FILM",
+      "ticker": "FILM.JK"
+    },
+    {
+      "code": "FIMP",
+      "ticker": "FIMP.JK"
+    },
+    {
+      "code": "FIRE",
+      "ticker": "FIRE.JK"
+    },
+    {
+      "code": "FISH",
+      "ticker": "FISH.JK"
+    },
+    {
+      "code": "FITT",
+      "ticker": "FITT.JK"
+    },
+    {
+      "code": "FLMC",
+      "ticker": "FLMC.JK"
+    },
+    {
+      "code": "FMII",
+      "ticker": "FMII.JK"
+    },
+    {
+      "code": "FOLK",
+      "ticker": "FOLK.JK"
+    },
+    {
+      "code": "FOOD",
+      "ticker": "FOOD.JK"
+    },
+    {
+      "code": "FORE",
+      "ticker": "FORE.JK"
+    },
+    {
+      "code": "FORU",
+      "ticker": "FORU.JK"
+    },
+    {
+      "code": "FPNI",
+      "ticker": "FPNI.JK"
+    },
+    {
+      "code": "FUJI",
+      "ticker": "FUJI.JK"
+    },
+    {
+      "code": "FUTR",
+      "ticker": "FUTR.JK"
+    },
+    {
+      "code": "FWCT",
+      "ticker": "FWCT.JK"
+    },
+    {
+      "code": "GAMA",
+      "ticker": "GAMA.JK"
+    },
+    {
+      "code": "GDST",
+      "ticker": "GDST.JK"
+    },
+    {
+      "code": "GDYR",
+      "ticker": "GDYR.JK"
+    },
+    {
+      "code": "GEMA",
+      "ticker": "GEMA.JK"
+    },
+    {
+      "code": "GEMS",
+      "ticker": "GEMS.JK"
+    },
+    {
+      "code": "GGRM",
+      "ticker": "GGRM.JK"
+    },
+    {
+      "code": "GGRP",
+      "ticker": "GGRP.JK"
+    },
+    {
+      "code": "GHON",
+      "ticker": "GHON.JK"
+    },
+    {
+      "code": "GIAA",
+      "ticker": "GIAA.JK"
+    },
+    {
+      "code": "GJTL",
+      "ticker": "GJTL.JK"
+    },
+    {
+      "code": "GLOB",
+      "ticker": "GLOB.JK"
+    },
+    {
+      "code": "GLVA",
+      "ticker": "GLVA.JK"
+    },
+    {
+      "code": "GMFI",
+      "ticker": "GMFI.JK"
+    },
+    {
+      "code": "GMTD",
+      "ticker": "GMTD.JK"
+    },
+    {
+      "code": "GOLD",
+      "ticker": "GOLD.JK"
+    },
+    {
+      "code": "GOLF",
+      "ticker": "GOLF.JK"
+    },
+    {
+      "code": "GOLL",
+      "ticker": "GOLL.JK"
+    },
+    {
+      "code": "GOOD",
+      "ticker": "GOOD.JK"
+    },
+    {
+      "code": "GOTO",
+      "ticker": "GOTO.JK"
+    },
+    {
+      "code": "GPRA",
+      "ticker": "GPRA.JK"
+    },
+    {
+      "code": "GPSO",
+      "ticker": "GPSO.JK"
+    },
+    {
+      "code": "GRIA",
+      "ticker": "GRIA.JK"
+    },
+    {
+      "code": "GRPH",
+      "ticker": "GRPH.JK"
+    },
+    {
+      "code": "GRPM",
+      "ticker": "GRPM.JK"
+    },
+    {
+      "code": "GSMF",
+      "ticker": "GSMF.JK"
+    },
+    {
+      "code": "GTBO",
+      "ticker": "GTBO.JK"
+    },
+    {
+      "code": "GTRA",
+      "ticker": "GTRA.JK"
+    },
+    {
+      "code": "GTSI",
+      "ticker": "GTSI.JK"
+    },
+    {
+      "code": "GULA",
+      "ticker": "GULA.JK"
+    },
+    {
+      "code": "GUNA",
+      "ticker": "GUNA.JK"
+    },
+    {
+      "code": "GWSA",
+      "ticker": "GWSA.JK"
+    },
+    {
+      "code": "GZCO",
+      "ticker": "GZCO.JK"
+    },
+    {
+      "code": "HADE",
+      "ticker": "HADE.JK"
+    },
+    {
+      "code": "HAIS",
+      "ticker": "HAIS.JK"
+    },
+    {
+      "code": "HAJJ",
+      "ticker": "HAJJ.JK"
+    },
+    {
+      "code": "HALO",
+      "ticker": "HALO.JK"
+    },
+    {
+      "code": "HATM",
+      "ticker": "HATM.JK"
+    },
+    {
+      "code": "HBAT",
+      "ticker": "HBAT.JK"
+    },
+    {
+      "code": "HDFA",
+      "ticker": "HDFA.JK"
+    },
+    {
+      "code": "HDIT",
+      "ticker": "HDIT.JK"
+    },
+    {
+      "code": "HEAL",
+      "ticker": "HEAL.JK"
+    },
+    {
+      "code": "HELI",
+      "ticker": "HELI.JK"
+    },
+    {
+      "code": "HERO",
+      "ticker": "HERO.JK"
+    },
+    {
+      "code": "HEXA",
+      "ticker": "HEXA.JK"
+    },
+    {
+      "code": "HGII",
+      "ticker": "HGII.JK"
+    },
+    {
+      "code": "HILL",
+      "ticker": "HILL.JK"
+    },
+    {
+      "code": "HITS",
+      "ticker": "HITS.JK"
+    },
+    {
+      "code": "HKMU",
+      "ticker": "HKMU.JK"
+    },
+    {
+      "code": "HMSP",
+      "ticker": "HMSP.JK"
+    },
+    {
+      "code": "HOKI",
+      "ticker": "HOKI.JK"
+    },
+    {
+      "code": "HOME",
+      "ticker": "HOME.JK"
+    },
+    {
+      "code": "HOMI",
+      "ticker": "HOMI.JK"
+    },
+    {
+      "code": "HOPE",
+      "ticker": "HOPE.JK"
+    },
+    {
+      "code": "HOTL",
+      "ticker": "HOTL.JK"
+    },
+    {
+      "code": "HRME",
+      "ticker": "HRME.JK"
+    },
+    {
+      "code": "HRTA",
+      "ticker": "HRTA.JK"
+    },
+    {
+      "code": "HRUM",
+      "ticker": "HRUM.JK"
+    },
+    {
+      "code": "HUMI",
+      "ticker": "HUMI.JK"
+    },
+    {
+      "code": "HYGN",
+      "ticker": "HYGN.JK"
+    },
+    {
+      "code": "IATA",
+      "ticker": "IATA.JK"
+    },
+    {
+      "code": "IBFN",
+      "ticker": "IBFN.JK"
+    },
+    {
+      "code": "IBOS",
+      "ticker": "IBOS.JK"
+    },
+    {
+      "code": "IBST",
+      "ticker": "IBST.JK"
+    },
+    {
+      "code": "ICBP",
+      "ticker": "ICBP.JK"
+    },
+    {
+      "code": "ICON",
+      "ticker": "ICON.JK"
+    },
+    {
+      "code": "IDEA",
+      "ticker": "IDEA.JK"
+    },
+    {
+      "code": "IDPR",
+      "ticker": "IDPR.JK"
+    },
+    {
+      "code": "IFII",
+      "ticker": "IFII.JK"
+    },
+    {
+      "code": "IFSH",
+      "ticker": "IFSH.JK"
+    },
+    {
+      "code": "IGAR",
+      "ticker": "IGAR.JK"
+    },
+    {
+      "code": "IIKP",
+      "ticker": "IIKP.JK"
+    },
+    {
+      "code": "IKAI",
+      "ticker": "IKAI.JK"
+    },
+    {
+      "code": "IKAN",
+      "ticker": "IKAN.JK"
+    },
+    {
+      "code": "IKBI",
+      "ticker": "IKBI.JK"
+    },
+    {
+      "code": "IKPM",
+      "ticker": "IKPM.JK"
+    },
+    {
+      "code": "IMAS",
+      "ticker": "IMAS.JK"
+    },
+    {
+      "code": "IMJS",
+      "ticker": "IMJS.JK"
+    },
+    {
+      "code": "IMPC",
+      "ticker": "IMPC.JK"
+    },
+    {
+      "code": "INAF",
+      "ticker": "INAF.JK"
+    },
+    {
+      "code": "INAI",
+      "ticker": "INAI.JK"
+    },
+    {
+      "code": "INCF",
+      "ticker": "INCF.JK"
+    },
+    {
+      "code": "INCI",
+      "ticker": "INCI.JK"
+    },
+    {
+      "code": "INCO",
+      "ticker": "INCO.JK"
+    },
+    {
+      "code": "INDF",
+      "ticker": "INDF.JK"
+    },
+    {
+      "code": "INDO",
+      "ticker": "INDO.JK"
+    },
+    {
+      "code": "INDR",
+      "ticker": "INDR.JK"
+    },
+    {
+      "code": "INDS",
+      "ticker": "INDS.JK"
+    },
+    {
+      "code": "INDX",
+      "ticker": "INDX.JK"
+    },
+    {
+      "code": "INDY",
+      "ticker": "INDY.JK"
+    },
+    {
+      "code": "INET",
+      "ticker": "INET.JK"
+    },
+    {
+      "code": "INKP",
+      "ticker": "INKP.JK"
+    },
+    {
+      "code": "INOV",
+      "ticker": "INOV.JK"
+    },
+    {
+      "code": "INPC",
+      "ticker": "INPC.JK"
+    },
+    {
+      "code": "INPP",
+      "ticker": "INPP.JK"
+    },
+    {
+      "code": "INPS",
+      "ticker": "INPS.JK"
+    },
+    {
+      "code": "INRU",
+      "ticker": "INRU.JK"
+    },
+    {
+      "code": "INTA",
+      "ticker": "INTA.JK"
+    },
+    {
+      "code": "INTD",
+      "ticker": "INTD.JK"
+    },
+    {
+      "code": "INTP",
+      "ticker": "INTP.JK"
+    },
+    {
+      "code": "IOTF",
+      "ticker": "IOTF.JK"
+    },
+    {
+      "code": "IPAC",
+      "ticker": "IPAC.JK"
+    },
+    {
+      "code": "IPCC",
+      "ticker": "IPCC.JK"
+    },
+    {
+      "code": "IPCM",
+      "ticker": "IPCM.JK"
+    },
+    {
+      "code": "IPOL",
+      "ticker": "IPOL.JK"
+    },
+    {
+      "code": "IPPE",
+      "ticker": "IPPE.JK"
+    },
+    {
+      "code": "IPTV",
+      "ticker": "IPTV.JK"
+    },
+    {
+      "code": "IRRA",
+      "ticker": "IRRA.JK"
+    },
+    {
+      "code": "IRSX",
+      "ticker": "IRSX.JK"
+    },
+    {
+      "code": "ISAP",
+      "ticker": "ISAP.JK"
+    },
+    {
+      "code": "ISAT",
+      "ticker": "ISAT.JK"
+    },
+    {
+      "code": "ISEA",
+      "ticker": "ISEA.JK"
+    },
+    {
+      "code": "ISSP",
+      "ticker": "ISSP.JK"
+    },
+    {
+      "code": "ITIC",
+      "ticker": "ITIC.JK"
+    },
+    {
+      "code": "ITMA",
+      "ticker": "ITMA.JK"
+    },
+    {
+      "code": "ITMG",
+      "ticker": "ITMG.JK"
+    },
+    {
+      "code": "JARR",
+      "ticker": "JARR.JK"
+    },
+    {
+      "code": "JAST",
+      "ticker": "JAST.JK"
+    },
+    {
+      "code": "JATI",
+      "ticker": "JATI.JK"
+    },
+    {
+      "code": "JAWA",
+      "ticker": "JAWA.JK"
+    },
+    {
+      "code": "JAYA",
+      "ticker": "JAYA.JK"
+    },
+    {
+      "code": "JECC",
+      "ticker": "JECC.JK"
+    },
+    {
+      "code": "JGLE",
+      "ticker": "JGLE.JK"
+    },
+    {
+      "code": "JIHD",
+      "ticker": "JIHD.JK"
+    },
+    {
+      "code": "JKON",
+      "ticker": "JKON.JK"
+    },
+    {
+      "code": "JMAS",
+      "ticker": "JMAS.JK"
+    },
+    {
+      "code": "JPFA",
+      "ticker": "JPFA.JK"
+    },
+    {
+      "code": "JRPT",
+      "ticker": "JRPT.JK"
+    },
+    {
+      "code": "JSKY",
+      "ticker": "JSKY.JK"
+    },
+    {
+      "code": "JSMR",
+      "ticker": "JSMR.JK"
+    },
+    {
+      "code": "JSPT",
+      "ticker": "JSPT.JK"
+    },
+    {
+      "code": "JTPE",
+      "ticker": "JTPE.JK"
+    },
+    {
+      "code": "KAEF",
+      "ticker": "KAEF.JK"
+    },
+    {
+      "code": "KAQI",
+      "ticker": "KAQI.JK"
+    },
+    {
+      "code": "KARW",
+      "ticker": "KARW.JK"
+    },
+    {
+      "code": "KAYU",
+      "ticker": "KAYU.JK"
+    },
+    {
+      "code": "KBAG",
+      "ticker": "KBAG.JK"
+    },
+    {
+      "code": "KBLI",
+      "ticker": "KBLI.JK"
+    },
+    {
+      "code": "KBLM",
+      "ticker": "KBLM.JK"
+    },
+    {
+      "code": "KBLV",
+      "ticker": "KBLV.JK"
+    },
+    {
+      "code": "KBRI",
+      "ticker": "KBRI.JK"
+    },
+    {
+      "code": "KDSI",
+      "ticker": "KDSI.JK"
+    },
+    {
+      "code": "KDTN",
+      "ticker": "KDTN.JK"
+    },
+    {
+      "code": "KEEN",
+      "ticker": "KEEN.JK"
+    },
+    {
+      "code": "KEJU",
+      "ticker": "KEJU.JK"
+    },
+    {
+      "code": "KETR",
+      "ticker": "KETR.JK"
+    },
+    {
+      "code": "KIAS",
+      "ticker": "KIAS.JK"
+    },
+    {
+      "code": "KICI",
+      "ticker": "KICI.JK"
+    },
+    {
+      "code": "KIJA",
+      "ticker": "KIJA.JK"
+    },
+    {
+      "code": "KING",
+      "ticker": "KING.JK"
+    },
+    {
+      "code": "KINO",
+      "ticker": "KINO.JK"
+    },
+    {
+      "code": "KIOS",
+      "ticker": "KIOS.JK"
+    },
+    {
+      "code": "KJEN",
+      "ticker": "KJEN.JK"
+    },
+    {
+      "code": "KKES",
+      "ticker": "KKES.JK"
+    },
+    {
+      "code": "KKGI",
+      "ticker": "KKGI.JK"
+    },
+    {
+      "code": "KLAS",
+      "ticker": "KLAS.JK"
+    },
+    {
+      "code": "KLBF",
+      "ticker": "KLBF.JK"
+    },
+    {
+      "code": "KLIN",
+      "ticker": "KLIN.JK"
+    },
+    {
+      "code": "KMDS",
+      "ticker": "KMDS.JK"
+    },
+    {
+      "code": "KMTR",
+      "ticker": "KMTR.JK"
+    },
+    {
+      "code": "KOBX",
+      "ticker": "KOBX.JK"
+    },
+    {
+      "code": "KOCI",
+      "ticker": "KOCI.JK"
+    },
+    {
+      "code": "KOIN",
+      "ticker": "KOIN.JK"
+    },
+    {
+      "code": "KOKA",
+      "ticker": "KOKA.JK"
+    },
+    {
+      "code": "KONI",
+      "ticker": "KONI.JK"
+    },
+    {
+      "code": "KOPI",
+      "ticker": "KOPI.JK"
+    },
+    {
+      "code": "KOTA",
+      "ticker": "KOTA.JK"
+    },
+    {
+      "code": "KPIG",
+      "ticker": "KPIG.JK"
+    },
+    {
+      "code": "KRAS",
+      "ticker": "KRAS.JK"
+    },
+    {
+      "code": "KREN",
+      "ticker": "KREN.JK"
+    },
+    {
+      "code": "KRYA",
+      "ticker": "KRYA.JK"
+    },
+    {
+      "code": "KSIX",
+      "ticker": "KSIX.JK"
+    },
+    {
+      "code": "KUAS",
+      "ticker": "KUAS.JK"
+    },
+    {
+      "code": "LABA",
+      "ticker": "LABA.JK"
+    },
+    {
+      "code": "LABS",
+      "ticker": "LABS.JK"
+    },
+    {
+      "code": "LAJU",
+      "ticker": "LAJU.JK"
+    },
+    {
+      "code": "LAND",
+      "ticker": "LAND.JK"
+    },
+    {
+      "code": "LAPD",
+      "ticker": "LAPD.JK"
+    },
+    {
+      "code": "LCGP",
+      "ticker": "LCGP.JK"
+    },
+    {
+      "code": "LCKM",
+      "ticker": "LCKM.JK"
+    },
+    {
+      "code": "LEAD",
+      "ticker": "LEAD.JK"
+    },
+    {
+      "code": "LFLO",
+      "ticker": "LFLO.JK"
+    },
+    {
+      "code": "LIFE",
+      "ticker": "LIFE.JK"
+    },
+    {
+      "code": "LINK",
+      "ticker": "LINK.JK"
+    },
+    {
+      "code": "LION",
+      "ticker": "LION.JK"
+    },
+    {
+      "code": "LIVE",
+      "ticker": "LIVE.JK"
+    },
+    {
+      "code": "LMAS",
+      "ticker": "LMAS.JK"
+    },
+    {
+      "code": "LMAX",
+      "ticker": "LMAX.JK"
+    },
+    {
+      "code": "LMPI",
+      "ticker": "LMPI.JK"
+    },
+    {
+      "code": "LMSH",
+      "ticker": "LMSH.JK"
+    },
+    {
+      "code": "LOPI",
+      "ticker": "LOPI.JK"
+    },
+    {
+      "code": "LPCK",
+      "ticker": "LPCK.JK"
+    },
+    {
+      "code": "LPGI",
+      "ticker": "LPGI.JK"
+    },
+    {
+      "code": "LPIN",
+      "ticker": "LPIN.JK"
+    },
+    {
+      "code": "LPKR",
+      "ticker": "LPKR.JK"
+    },
+    {
+      "code": "LPLI",
+      "ticker": "LPLI.JK"
+    },
+    {
+      "code": "LPPF",
+      "ticker": "LPPF.JK"
+    },
+    {
+      "code": "LPPS",
+      "ticker": "LPPS.JK"
+    },
+    {
+      "code": "LRNA",
+      "ticker": "LRNA.JK"
+    },
+    {
+      "code": "LSIP",
+      "ticker": "LSIP.JK"
+    },
+    {
+      "code": "LTLS",
+      "ticker": "LTLS.JK"
+    },
+    {
+      "code": "LUCK",
+      "ticker": "LUCK.JK"
+    },
+    {
+      "code": "LUCY",
+      "ticker": "LUCY.JK"
+    },
+    {
+      "code": "MABA",
+      "ticker": "MABA.JK"
+    },
+    {
+      "code": "MAGP",
+      "ticker": "MAGP.JK"
+    },
+    {
+      "code": "MAHA",
+      "ticker": "MAHA.JK"
+    },
+    {
+      "code": "MAIN",
+      "ticker": "MAIN.JK"
+    },
+    {
+      "code": "MANG",
+      "ticker": "MANG.JK"
+    },
+    {
+      "code": "MAPA",
+      "ticker": "MAPA.JK"
+    },
+    {
+      "code": "MAPB",
+      "ticker": "MAPB.JK"
+    },
+    {
+      "code": "MAPI",
+      "ticker": "MAPI.JK"
+    },
+    {
+      "code": "MARI",
+      "ticker": "MARI.JK"
+    },
+    {
+      "code": "MARK",
+      "ticker": "MARK.JK"
+    },
+    {
+      "code": "MASB",
+      "ticker": "MASB.JK"
+    },
+    {
+      "code": "MAXI",
+      "ticker": "MAXI.JK"
+    },
+    {
+      "code": "MAYA",
+      "ticker": "MAYA.JK"
+    },
+    {
+      "code": "MBAP",
+      "ticker": "MBAP.JK"
+    },
+    {
+      "code": "MBMA",
+      "ticker": "MBMA.JK"
+    },
+    {
+      "code": "MBSS",
+      "ticker": "MBSS.JK"
+    },
+    {
+      "code": "MBTO",
+      "ticker": "MBTO.JK"
+    },
+    {
+      "code": "MCAS",
+      "ticker": "MCAS.JK"
+    },
+    {
+      "code": "MCOL",
+      "ticker": "MCOL.JK"
+    },
+    {
+      "code": "MCOR",
+      "ticker": "MCOR.JK"
+    },
+    {
+      "code": "MDIA",
+      "ticker": "MDIA.JK"
+    },
+    {
+      "code": "MDIY",
+      "ticker": "MDIY.JK"
+    },
+    {
+      "code": "MDKA",
+      "ticker": "MDKA.JK"
+    },
+    {
+      "code": "MDKI",
+      "ticker": "MDKI.JK"
+    },
+    {
+      "code": "MDLA",
+      "ticker": "MDLA.JK"
+    },
+    {
+      "code": "MDLN",
+      "ticker": "MDLN.JK"
+    },
+    {
+      "code": "MDRN",
+      "ticker": "MDRN.JK"
+    },
+    {
+      "code": "MEDC",
+      "ticker": "MEDC.JK"
+    },
+    {
+      "code": "MEDS",
+      "ticker": "MEDS.JK"
+    },
+    {
+      "code": "MEGA",
+      "ticker": "MEGA.JK"
+    },
+    {
+      "code": "MEJA",
+      "ticker": "MEJA.JK"
+    },
+    {
+      "code": "MENN",
+      "ticker": "MENN.JK"
+    },
+    {
+      "code": "MERI",
+      "ticker": "MERI.JK"
+    },
+    {
+      "code": "MERK",
+      "ticker": "MERK.JK"
+    },
+    {
+      "code": "META",
+      "ticker": "META.JK"
+    },
+    {
+      "code": "MFMI",
+      "ticker": "MFMI.JK"
+    },
+    {
+      "code": "MGLV",
+      "ticker": "MGLV.JK"
+    },
+    {
+      "code": "MGNA",
+      "ticker": "MGNA.JK"
+    },
+    {
+      "code": "MGRO",
+      "ticker": "MGRO.JK"
+    },
+    {
+      "code": "MHKI",
+      "ticker": "MHKI.JK"
+    },
+    {
+      "code": "MICE",
+      "ticker": "MICE.JK"
+    },
+    {
+      "code": "MIDI",
+      "ticker": "MIDI.JK"
+    },
+    {
+      "code": "MIKA",
+      "ticker": "MIKA.JK"
+    },
+    {
+      "code": "MINA",
+      "ticker": "MINA.JK"
+    },
+    {
+      "code": "MINE",
+      "ticker": "MINE.JK"
+    },
+    {
+      "code": "MIRA",
+      "ticker": "MIRA.JK"
+    },
+    {
+      "code": "MITI",
+      "ticker": "MITI.JK"
+    },
+    {
+      "code": "MKAP",
+      "ticker": "MKAP.JK"
+    },
+    {
+      "code": "MKNT",
+      "ticker": "MKNT.JK"
+    },
+    {
+      "code": "MKPI",
+      "ticker": "MKPI.JK"
+    },
+    {
+      "code": "MKTR",
+      "ticker": "MKTR.JK"
+    },
+    {
+      "code": "MLBI",
+      "ticker": "MLBI.JK"
+    },
+    {
+      "code": "MLIA",
+      "ticker": "MLIA.JK"
+    },
+    {
+      "code": "MLPL",
+      "ticker": "MLPL.JK"
+    },
+    {
+      "code": "MLPT",
+      "ticker": "MLPT.JK"
+    },
+    {
+      "code": "MMIX",
+      "ticker": "MMIX.JK"
+    },
+    {
+      "code": "MMLP",
+      "ticker": "MMLP.JK"
+    },
+    {
+      "code": "MNCN",
+      "ticker": "MNCN.JK"
+    },
+    {
+      "code": "MOLI",
+      "ticker": "MOLI.JK"
+    },
+    {
+      "code": "MORA",
+      "ticker": "MORA.JK"
+    },
+    {
+      "code": "MPIX",
+      "ticker": "MPIX.JK"
+    },
+    {
+      "code": "MPMX",
+      "ticker": "MPMX.JK"
+    },
+    {
+      "code": "MPOW",
+      "ticker": "MPOW.JK"
+    },
+    {
+      "code": "MPPA",
+      "ticker": "MPPA.JK"
+    },
+    {
+      "code": "MPRO",
+      "ticker": "MPRO.JK"
+    },
+    {
+      "code": "MPXL",
+      "ticker": "MPXL.JK"
+    },
+    {
+      "code": "MRAT",
+      "ticker": "MRAT.JK"
+    },
+    {
+      "code": "MREI",
+      "ticker": "MREI.JK"
+    },
+    {
+      "code": "MSIE",
+      "ticker": "MSIE.JK"
+    },
+    {
+      "code": "MSIN",
+      "ticker": "MSIN.JK"
+    },
+    {
+      "code": "MSJA",
+      "ticker": "MSJA.JK"
+    },
+    {
+      "code": "MSKY",
+      "ticker": "MSKY.JK"
+    },
+    {
+      "code": "MSTI",
+      "ticker": "MSTI.JK"
+    },
+    {
+      "code": "MTDL",
+      "ticker": "MTDL.JK"
+    },
+    {
+      "code": "MTEL",
+      "ticker": "MTEL.JK"
+    },
+    {
+      "code": "MTFN",
+      "ticker": "MTFN.JK"
+    },
+    {
+      "code": "MTLA",
+      "ticker": "MTLA.JK"
+    },
+    {
+      "code": "MTMH",
+      "ticker": "MTMH.JK"
+    },
+    {
+      "code": "MTPS",
+      "ticker": "MTPS.JK"
+    },
+    {
+      "code": "MTRA",
+      "ticker": "MTRA.JK"
+    },
+    {
+      "code": "MTSM",
+      "ticker": "MTSM.JK"
+    },
+    {
+      "code": "MTWI",
+      "ticker": "MTWI.JK"
+    },
+    {
+      "code": "MUTU",
+      "ticker": "MUTU.JK"
+    },
+    {
+      "code": "MYOH",
+      "ticker": "MYOH.JK"
+    },
+    {
+      "code": "MYOR",
+      "ticker": "MYOR.JK"
+    },
+    {
+      "code": "MYTX",
+      "ticker": "MYTX.JK"
+    },
+    {
+      "code": "NAIK",
+      "ticker": "NAIK.JK"
+    },
+    {
+      "code": "NANO",
+      "ticker": "NANO.JK"
+    },
+    {
+      "code": "NASA",
+      "ticker": "NASA.JK"
+    },
+    {
+      "code": "NASI",
+      "ticker": "NASI.JK"
+    },
+    {
+      "code": "NATO",
+      "ticker": "NATO.JK"
+    },
+    {
+      "code": "NAYZ",
+      "ticker": "NAYZ.JK"
+    },
+    {
+      "code": "NCKL",
+      "ticker": "NCKL.JK"
+    },
+    {
+      "code": "NELY",
+      "ticker": "NELY.JK"
+    },
+    {
+      "code": "NEST",
+      "ticker": "NEST.JK"
+    },
+    {
+      "code": "NETV",
+      "ticker": "NETV.JK"
+    },
+    {
+      "code": "NFCX",
+      "ticker": "NFCX.JK"
+    },
+    {
+      "code": "NICE",
+      "ticker": "NICE.JK"
+    },
+    {
+      "code": "NICK",
+      "ticker": "NICK.JK"
+    },
+    {
+      "code": "NICL",
+      "ticker": "NICL.JK"
+    },
+    {
+      "code": "NIKL",
+      "ticker": "NIKL.JK"
+    },
+    {
+      "code": "NINE",
+      "ticker": "NINE.JK"
+    },
+    {
+      "code": "NIRO",
+      "ticker": "NIRO.JK"
+    },
+    {
+      "code": "NISP",
+      "ticker": "NISP.JK"
+    },
+    {
+      "code": "NOBU",
+      "ticker": "NOBU.JK"
+    },
+    {
+      "code": "NPGF",
+      "ticker": "NPGF.JK"
+    },
+    {
+      "code": "NRCA",
+      "ticker": "NRCA.JK"
+    },
+    {
+      "code": "NSSS",
+      "ticker": "NSSS.JK"
+    },
+    {
+      "code": "NTBK",
+      "ticker": "NTBK.JK"
+    },
+    {
+      "code": "NUSA",
+      "ticker": "NUSA.JK"
+    },
+    {
+      "code": "NZIA",
+      "ticker": "NZIA.JK"
+    },
+    {
+      "code": "OASA",
+      "ticker": "OASA.JK"
+    },
+    {
+      "code": "OBAT",
+      "ticker": "OBAT.JK"
+    },
+    {
+      "code": "OBMD",
+      "ticker": "OBMD.JK"
+    },
+    {
+      "code": "OCAP",
+      "ticker": "OCAP.JK"
+    },
+    {
+      "code": "OILS",
+      "ticker": "OILS.JK"
+    },
+    {
+      "code": "OKAS",
+      "ticker": "OKAS.JK"
+    },
+    {
+      "code": "OLIV",
+      "ticker": "OLIV.JK"
+    },
+    {
+      "code": "OMED",
+      "ticker": "OMED.JK"
+    },
+    {
+      "code": "OMRE",
+      "ticker": "OMRE.JK"
+    },
+    {
+      "code": "OPMS",
+      "ticker": "OPMS.JK"
+    },
+    {
+      "code": "PACK",
+      "ticker": "PACK.JK"
+    },
+    {
+      "code": "PADA",
+      "ticker": "PADA.JK"
+    },
+    {
+      "code": "PADI",
+      "ticker": "PADI.JK"
+    },
+    {
+      "code": "PALM",
+      "ticker": "PALM.JK"
+    },
+    {
+      "code": "PAMG",
+      "ticker": "PAMG.JK"
+    },
+    {
+      "code": "PANI",
+      "ticker": "PANI.JK"
+    },
+    {
+      "code": "PANR",
+      "ticker": "PANR.JK"
+    },
+    {
+      "code": "PANS",
+      "ticker": "PANS.JK"
+    },
+    {
+      "code": "PART",
+      "ticker": "PART.JK"
+    },
+    {
+      "code": "PBID",
+      "ticker": "PBID.JK"
+    },
+    {
+      "code": "PBRX",
+      "ticker": "PBRX.JK"
+    },
+    {
+      "code": "PBSA",
+      "ticker": "PBSA.JK"
+    },
+    {
+      "code": "PCAR",
+      "ticker": "PCAR.JK"
+    },
+    {
+      "code": "PDES",
+      "ticker": "PDES.JK"
+    },
+    {
+      "code": "PDPP",
+      "ticker": "PDPP.JK"
+    },
+    {
+      "code": "PEGE",
+      "ticker": "PEGE.JK"
+    },
+    {
+      "code": "PEHA",
+      "ticker": "PEHA.JK"
+    },
+    {
+      "code": "PEVE",
+      "ticker": "PEVE.JK"
+    },
+    {
+      "code": "PGAS",
+      "ticker": "PGAS.JK"
+    },
+    {
+      "code": "PGEO",
+      "ticker": "PGEO.JK"
+    },
+    {
+      "code": "PGJO",
+      "ticker": "PGJO.JK"
+    },
+    {
+      "code": "PGLI",
+      "ticker": "PGLI.JK"
+    },
+    {
+      "code": "PGUN",
+      "ticker": "PGUN.JK"
+    },
+    {
+      "code": "PICO",
+      "ticker": "PICO.JK"
+    },
+    {
+      "code": "PIPA",
+      "ticker": "PIPA.JK"
+    },
+    {
+      "code": "PJAA",
+      "ticker": "PJAA.JK"
+    },
+    {
+      "code": "PJHB",
+      "ticker": "PJHB.JK"
+    },
+    {
+      "code": "PKPK",
+      "ticker": "PKPK.JK"
+    },
+    {
+      "code": "PLAN",
+      "ticker": "PLAN.JK"
+    },
+    {
+      "code": "PLAS",
+      "ticker": "PLAS.JK"
+    },
+    {
+      "code": "PLIN",
+      "ticker": "PLIN.JK"
+    },
+    {
+      "code": "PMJS",
+      "ticker": "PMJS.JK"
+    },
+    {
+      "code": "PMMP",
+      "ticker": "PMMP.JK"
+    },
+    {
+      "code": "PMUI",
+      "ticker": "PMUI.JK"
+    },
+    {
+      "code": "PNBN",
+      "ticker": "PNBN.JK"
+    },
+    {
+      "code": "PNBS",
+      "ticker": "PNBS.JK"
+    },
+    {
+      "code": "PNGO",
+      "ticker": "PNGO.JK"
+    },
+    {
+      "code": "PNIN",
+      "ticker": "PNIN.JK"
+    },
+    {
+      "code": "PNLF",
+      "ticker": "PNLF.JK"
+    },
+    {
+      "code": "PNSE",
+      "ticker": "PNSE.JK"
+    },
+    {
+      "code": "POLA",
+      "ticker": "POLA.JK"
+    },
+    {
+      "code": "POLI",
+      "ticker": "POLI.JK"
+    },
+    {
+      "code": "POLL",
+      "ticker": "POLL.JK"
+    },
+    {
+      "code": "POLU",
+      "ticker": "POLU.JK"
+    },
+    {
+      "code": "POLY",
+      "ticker": "POLY.JK"
+    },
+    {
+      "code": "POOL",
+      "ticker": "POOL.JK"
+    },
+    {
+      "code": "PORT",
+      "ticker": "PORT.JK"
+    },
+    {
+      "code": "POSA",
+      "ticker": "POSA.JK"
+    },
+    {
+      "code": "POWR",
+      "ticker": "POWR.JK"
+    },
+    {
+      "code": "PPGL",
+      "ticker": "PPGL.JK"
+    },
+    {
+      "code": "PPRE",
+      "ticker": "PPRE.JK"
+    },
+    {
+      "code": "PPRI",
+      "ticker": "PPRI.JK"
+    },
+    {
+      "code": "PPRO",
+      "ticker": "PPRO.JK"
+    },
+    {
+      "code": "PRAY",
+      "ticker": "PRAY.JK"
+    },
+    {
+      "code": "PRDA",
+      "ticker": "PRDA.JK"
+    },
+    {
+      "code": "PRIM",
+      "ticker": "PRIM.JK"
+    },
+    {
+      "code": "PSAB",
+      "ticker": "PSAB.JK"
+    },
+    {
+      "code": "PSAT",
+      "ticker": "PSAT.JK"
+    },
+    {
+      "code": "PSDN",
+      "ticker": "PSDN.JK"
+    },
+    {
+      "code": "PSGO",
+      "ticker": "PSGO.JK"
+    },
+    {
+      "code": "PSKT",
+      "ticker": "PSKT.JK"
+    },
+    {
+      "code": "PSSI",
+      "ticker": "PSSI.JK"
+    },
+    {
+      "code": "PTBA",
+      "ticker": "PTBA.JK"
+    },
+    {
+      "code": "PTDU",
+      "ticker": "PTDU.JK"
+    },
+    {
+      "code": "PTIS",
+      "ticker": "PTIS.JK"
+    },
+    {
+      "code": "PTMP",
+      "ticker": "PTMP.JK"
+    },
+    {
+      "code": "PTMR",
+      "ticker": "PTMR.JK"
+    },
+    {
+      "code": "PTPP",
+      "ticker": "PTPP.JK"
+    },
+    {
+      "code": "PTPS",
+      "ticker": "PTPS.JK"
+    },
+    {
+      "code": "PTPW",
+      "ticker": "PTPW.JK"
+    },
+    {
+      "code": "PTRO",
+      "ticker": "PTRO.JK"
+    },
+    {
+      "code": "PTSN",
+      "ticker": "PTSN.JK"
+    },
+    {
+      "code": "PTSP",
+      "ticker": "PTSP.JK"
+    },
+    {
+      "code": "PUDP",
+      "ticker": "PUDP.JK"
+    },
+    {
+      "code": "PURA",
+      "ticker": "PURA.JK"
+    },
+    {
+      "code": "PURE",
+      "ticker": "PURE.JK"
+    },
+    {
+      "code": "PURI",
+      "ticker": "PURI.JK"
+    },
+    {
+      "code": "PWON",
+      "ticker": "PWON.JK"
+    },
+    {
+      "code": "PYFA",
+      "ticker": "PYFA.JK"
+    },
+    {
+      "code": "PZZA",
+      "ticker": "PZZA.JK"
+    },
+    {
+      "code": "RAAM",
+      "ticker": "RAAM.JK"
+    },
+    {
+      "code": "RAFI",
+      "ticker": "RAFI.JK"
+    },
+    {
+      "code": "RAJA",
+      "ticker": "RAJA.JK"
+    },
+    {
+      "code": "RALS",
+      "ticker": "RALS.JK"
+    },
+    {
+      "code": "RANC",
+      "ticker": "RANC.JK"
+    },
+    {
+      "code": "RATU",
+      "ticker": "RATU.JK"
+    },
+    {
+      "code": "RBMS",
+      "ticker": "RBMS.JK"
+    },
+    {
+      "code": "RCCC",
+      "ticker": "RCCC.JK"
+    },
+    {
+      "code": "RDTX",
+      "ticker": "RDTX.JK"
+    },
+    {
+      "code": "REAL",
+      "ticker": "REAL.JK"
+    },
+    {
+      "code": "RELF",
+      "ticker": "RELF.JK"
+    },
+    {
+      "code": "RELI",
+      "ticker": "RELI.JK"
+    },
+    {
+      "code": "RGAS",
+      "ticker": "RGAS.JK"
+    },
+    {
+      "code": "RICY",
+      "ticker": "RICY.JK"
+    },
+    {
+      "code": "RIGS",
+      "ticker": "RIGS.JK"
+    },
+    {
+      "code": "RIMO",
+      "ticker": "RIMO.JK"
+    },
+    {
+      "code": "RISE",
+      "ticker": "RISE.JK"
+    },
+    {
+      "code": "RLCO",
+      "ticker": "RLCO.JK"
+    },
+    {
+      "code": "RMKE",
+      "ticker": "RMKE.JK"
+    },
+    {
+      "code": "RMKO",
+      "ticker": "RMKO.JK"
+    },
+    {
+      "code": "ROCK",
+      "ticker": "ROCK.JK"
+    },
+    {
+      "code": "RODA",
+      "ticker": "RODA.JK"
+    },
+    {
+      "code": "RONY",
+      "ticker": "RONY.JK"
+    },
+    {
+      "code": "ROTI",
+      "ticker": "ROTI.JK"
+    },
+    {
+      "code": "RSCH",
+      "ticker": "RSCH.JK"
+    },
+    {
+      "code": "RSGK",
+      "ticker": "RSGK.JK"
+    },
+    {
+      "code": "RUIS",
+      "ticker": "RUIS.JK"
+    },
+    {
+      "code": "RUNS",
+      "ticker": "RUNS.JK"
+    },
+    {
+      "code": "SAFE",
+      "ticker": "SAFE.JK"
+    },
+    {
+      "code": "SAGE",
+      "ticker": "SAGE.JK"
+    },
+    {
+      "code": "SAME",
+      "ticker": "SAME.JK"
+    },
+    {
+      "code": "SAMF",
+      "ticker": "SAMF.JK"
+    },
+    {
+      "code": "SAPX",
+      "ticker": "SAPX.JK"
+    },
+    {
+      "code": "SATU",
+      "ticker": "SATU.JK"
+    },
+    {
+      "code": "SBAT",
+      "ticker": "SBAT.JK"
+    },
+    {
+      "code": "SBMA",
+      "ticker": "SBMA.JK"
+    },
+    {
+      "code": "SCCO",
+      "ticker": "SCCO.JK"
+    },
+    {
+      "code": "SCMA",
+      "ticker": "SCMA.JK"
+    },
+    {
+      "code": "SCNP",
+      "ticker": "SCNP.JK"
+    },
+    {
+      "code": "SCPI",
+      "ticker": "SCPI.JK"
+    },
+    {
+      "code": "SDMU",
+      "ticker": "SDMU.JK"
+    },
+    {
+      "code": "SDPC",
+      "ticker": "SDPC.JK"
+    },
+    {
+      "code": "SDRA",
+      "ticker": "SDRA.JK"
+    },
+    {
+      "code": "SEMA",
+      "ticker": "SEMA.JK"
+    },
+    {
+      "code": "SFAN",
+      "ticker": "SFAN.JK"
+    },
+    {
+      "code": "SGER",
+      "ticker": "SGER.JK"
+    },
+    {
+      "code": "SGRO",
+      "ticker": "SGRO.JK"
+    },
+    {
+      "code": "SHID",
+      "ticker": "SHID.JK"
+    },
+    {
+      "code": "SHIP",
+      "ticker": "SHIP.JK"
+    },
+    {
+      "code": "SICO",
+      "ticker": "SICO.JK"
+    },
+    {
+      "code": "SIDO",
+      "ticker": "SIDO.JK"
+    },
+    {
+      "code": "SILO",
+      "ticker": "SILO.JK"
+    },
+    {
+      "code": "SIMA",
+      "ticker": "SIMA.JK"
+    },
+    {
+      "code": "SIMP",
+      "ticker": "SIMP.JK"
+    },
+    {
+      "code": "SINI",
+      "ticker": "SINI.JK"
+    },
+    {
+      "code": "SIPD",
+      "ticker": "SIPD.JK"
+    },
+    {
+      "code": "SKBM",
+      "ticker": "SKBM.JK"
+    },
+    {
+      "code": "SKLT",
+      "ticker": "SKLT.JK"
+    },
+    {
+      "code": "SKRN",
+      "ticker": "SKRN.JK"
+    },
+    {
+      "code": "SKYB",
+      "ticker": "SKYB.JK"
+    },
+    {
+      "code": "SLIS",
+      "ticker": "SLIS.JK"
+    },
+    {
+      "code": "SMAR",
+      "ticker": "SMAR.JK"
+    },
+    {
+      "code": "SMBR",
+      "ticker": "SMBR.JK"
+    },
+    {
+      "code": "SMCB",
+      "ticker": "SMCB.JK"
+    },
+    {
+      "code": "SMDM",
+      "ticker": "SMDM.JK"
+    },
+    {
+      "code": "SMDR",
+      "ticker": "SMDR.JK"
+    },
+    {
+      "code": "SMGA",
+      "ticker": "SMGA.JK"
+    },
+    {
+      "code": "SMGR",
+      "ticker": "SMGR.JK"
+    },
+    {
+      "code": "SMIL",
+      "ticker": "SMIL.JK"
+    },
+    {
+      "code": "SMKL",
+      "ticker": "SMKL.JK"
+    },
+    {
+      "code": "SMKM",
+      "ticker": "SMKM.JK"
+    },
+    {
+      "code": "SMLE",
+      "ticker": "SMLE.JK"
+    },
+    {
+      "code": "SMMA",
+      "ticker": "SMMA.JK"
+    },
+    {
+      "code": "SMMT",
+      "ticker": "SMMT.JK"
+    },
+    {
+      "code": "SMRA",
+      "ticker": "SMRA.JK"
+    },
+    {
+      "code": "SMRU",
+      "ticker": "SMRU.JK"
+    },
+    {
+      "code": "SMSM",
+      "ticker": "SMSM.JK"
+    },
+    {
+      "code": "SNLK",
+      "ticker": "SNLK.JK"
+    },
+    {
+      "code": "SOCI",
+      "ticker": "SOCI.JK"
+    },
+    {
+      "code": "SOFA",
+      "ticker": "SOFA.JK"
+    },
+    {
+      "code": "SOHO",
+      "ticker": "SOHO.JK"
+    },
+    {
+      "code": "SOLA",
+      "ticker": "SOLA.JK"
+    },
+    {
+      "code": "SONA",
+      "ticker": "SONA.JK"
+    },
+    {
+      "code": "SOSS",
+      "ticker": "SOSS.JK"
+    },
+    {
+      "code": "SOTS",
+      "ticker": "SOTS.JK"
+    },
+    {
+      "code": "SOUL",
+      "ticker": "SOUL.JK"
+    },
+    {
+      "code": "SPMA",
+      "ticker": "SPMA.JK"
+    },
+    {
+      "code": "SPRE",
+      "ticker": "SPRE.JK"
+    },
+    {
+      "code": "SPTO",
+      "ticker": "SPTO.JK"
+    },
+    {
+      "code": "SQMI",
+      "ticker": "SQMI.JK"
+    },
+    {
+      "code": "SRAJ",
+      "ticker": "SRAJ.JK"
+    },
+    {
+      "code": "SRIL",
+      "ticker": "SRIL.JK"
+    },
+    {
+      "code": "SRSN",
+      "ticker": "SRSN.JK"
+    },
+    {
+      "code": "SRTG",
+      "ticker": "SRTG.JK"
+    },
+    {
+      "code": "SSIA",
+      "ticker": "SSIA.JK"
+    },
+    {
+      "code": "SSMS",
+      "ticker": "SSMS.JK"
+    },
+    {
+      "code": "SSTM",
+      "ticker": "SSTM.JK"
+    },
+    {
+      "code": "STAA",
+      "ticker": "STAA.JK"
+    },
+    {
+      "code": "STAR",
+      "ticker": "STAR.JK"
+    },
+    {
+      "code": "STRK",
+      "ticker": "STRK.JK"
+    },
+    {
+      "code": "STTP",
+      "ticker": "STTP.JK"
+    },
+    {
+      "code": "SUGI",
+      "ticker": "SUGI.JK"
+    },
+    {
+      "code": "SULI",
+      "ticker": "SULI.JK"
+    },
+    {
+      "code": "SUNI",
+      "ticker": "SUNI.JK"
+    },
+    {
+      "code": "SUPR",
+      "ticker": "SUPR.JK"
+    },
+    {
+      "code": "SURE",
+      "ticker": "SURE.JK"
+    },
+    {
+      "code": "SURI",
+      "ticker": "SURI.JK"
+    },
+    {
+      "code": "SWAT",
+      "ticker": "SWAT.JK"
+    },
+    {
+      "code": "SWID",
+      "ticker": "SWID.JK"
+    },
+    {
+      "code": "TALF",
+      "ticker": "TALF.JK"
+    },
+    {
+      "code": "TAMA",
+      "ticker": "TAMA.JK"
+    },
+    {
+      "code": "TAMU",
+      "ticker": "TAMU.JK"
+    },
+    {
+      "code": "TAPG",
+      "ticker": "TAPG.JK"
+    },
+    {
+      "code": "TARA",
+      "ticker": "TARA.JK"
+    },
+    {
+      "code": "TAXI",
+      "ticker": "TAXI.JK"
+    },
+    {
+      "code": "TAYS",
+      "ticker": "TAYS.JK"
+    },
+    {
+      "code": "TBIG",
+      "ticker": "TBIG.JK"
+    },
+    {
+      "code": "TBLA",
+      "ticker": "TBLA.JK"
+    },
+    {
+      "code": "TBMS",
+      "ticker": "TBMS.JK"
+    },
+    {
+      "code": "TCID",
+      "ticker": "TCID.JK"
+    },
+    {
+      "code": "TCPI",
+      "ticker": "TCPI.JK"
+    },
+    {
+      "code": "TDPM",
+      "ticker": "TDPM.JK"
+    },
+    {
+      "code": "TEBE",
+      "ticker": "TEBE.JK"
+    },
+    {
+      "code": "TECH",
+      "ticker": "TECH.JK"
+    },
+    {
+      "code": "TELE",
+      "ticker": "TELE.JK"
+    },
+    {
+      "code": "TFAS",
+      "ticker": "TFAS.JK"
+    },
+    {
+      "code": "TFCO",
+      "ticker": "TFCO.JK"
+    },
+    {
+      "code": "TGKA",
+      "ticker": "TGKA.JK"
+    },
+    {
+      "code": "TGRA",
+      "ticker": "TGRA.JK"
+    },
+    {
+      "code": "TGUK",
+      "ticker": "TGUK.JK"
+    },
+    {
+      "code": "TIFA",
+      "ticker": "TIFA.JK"
+    },
+    {
+      "code": "TINS",
+      "ticker": "TINS.JK"
+    },
+    {
+      "code": "TIRA",
+      "ticker": "TIRA.JK"
+    },
+    {
+      "code": "TIRT",
+      "ticker": "TIRT.JK"
+    },
+    {
+      "code": "TKIM",
+      "ticker": "TKIM.JK"
+    },
+    {
+      "code": "TLDN",
+      "ticker": "TLDN.JK"
+    },
+    {
+      "code": "TLKM",
+      "ticker": "TLKM.JK"
+    },
+    {
+      "code": "TMAS",
+      "ticker": "TMAS.JK"
+    },
+    {
+      "code": "TMPO",
+      "ticker": "TMPO.JK"
+    },
+    {
+      "code": "TNCA",
+      "ticker": "TNCA.JK"
+    },
+    {
+      "code": "TOBA",
+      "ticker": "TOBA.JK"
+    },
+    {
+      "code": "TOOL",
+      "ticker": "TOOL.JK"
+    },
+    {
+      "code": "TOPS",
+      "ticker": "TOPS.JK"
+    },
+    {
+      "code": "TOSK",
+      "ticker": "TOSK.JK"
+    },
+    {
+      "code": "TOTL",
+      "ticker": "TOTL.JK"
+    },
+    {
+      "code": "TOTO",
+      "ticker": "TOTO.JK"
+    },
+    {
+      "code": "TOWR",
+      "ticker": "TOWR.JK"
+    },
+    {
+      "code": "TOYS",
+      "ticker": "TOYS.JK"
+    },
+    {
+      "code": "TPIA",
+      "ticker": "TPIA.JK"
+    },
+    {
+      "code": "TPMA",
+      "ticker": "TPMA.JK"
+    },
+    {
+      "code": "TRAM",
+      "ticker": "TRAM.JK"
+    },
+    {
+      "code": "TRGU",
+      "ticker": "TRGU.JK"
+    },
+    {
+      "code": "TRIL",
+      "ticker": "TRIL.JK"
+    },
+    {
+      "code": "TRIM",
+      "ticker": "TRIM.JK"
+    },
+    {
+      "code": "TRIN",
+      "ticker": "TRIN.JK"
+    },
+    {
+      "code": "TRIO",
+      "ticker": "TRIO.JK"
+    },
+    {
+      "code": "TRIS",
+      "ticker": "TRIS.JK"
+    },
+    {
+      "code": "TRJA",
+      "ticker": "TRJA.JK"
+    },
+    {
+      "code": "TRON",
+      "ticker": "TRON.JK"
+    },
+    {
+      "code": "TRST",
+      "ticker": "TRST.JK"
+    },
+    {
+      "code": "TRUE",
+      "ticker": "TRUE.JK"
+    },
+    {
+      "code": "TRUK",
+      "ticker": "TRUK.JK"
+    },
+    {
+      "code": "TRUS",
+      "ticker": "TRUS.JK"
+    },
+    {
+      "code": "TSPC",
+      "ticker": "TSPC.JK"
+    },
+    {
+      "code": "TUGU",
+      "ticker": "TUGU.JK"
+    },
+    {
+      "code": "TYRE",
+      "ticker": "TYRE.JK"
+    },
+    {
+      "code": "UANG",
+      "ticker": "UANG.JK"
+    },
+    {
+      "code": "UCID",
+      "ticker": "UCID.JK"
+    },
+    {
+      "code": "UDNG",
+      "ticker": "UDNG.JK"
+    },
+    {
+      "code": "UFOE",
+      "ticker": "UFOE.JK"
+    },
+    {
+      "code": "ULTJ",
+      "ticker": "ULTJ.JK"
+    },
+    {
+      "code": "UNIC",
+      "ticker": "UNIC.JK"
+    },
+    {
+      "code": "UNIQ",
+      "ticker": "UNIQ.JK"
+    },
+    {
+      "code": "UNIT",
+      "ticker": "UNIT.JK"
+    },
+    {
+      "code": "UNSP",
+      "ticker": "UNSP.JK"
+    },
+    {
+      "code": "UNTD",
+      "ticker": "UNTD.JK"
+    },
+    {
+      "code": "UNTR",
+      "ticker": "UNTR.JK"
+    },
+    {
+      "code": "UNVR",
+      "ticker": "UNVR.JK"
+    },
+    {
+      "code": "URBN",
+      "ticker": "URBN.JK"
+    },
+    {
+      "code": "UVCR",
+      "ticker": "UVCR.JK"
+    },
+    {
+      "code": "VAST",
+      "ticker": "VAST.JK"
+    },
+    {
+      "code": "VERN",
+      "ticker": "VERN.JK"
+    },
+    {
+      "code": "VICI",
+      "ticker": "VICI.JK"
+    },
+    {
+      "code": "VICO",
+      "ticker": "VICO.JK"
+    },
+    {
+      "code": "VINS",
+      "ticker": "VINS.JK"
+    },
+    {
+      "code": "VISI",
+      "ticker": "VISI.JK"
+    },
+    {
+      "code": "VIVA",
+      "ticker": "VIVA.JK"
+    },
+    {
+      "code": "VKTR",
+      "ticker": "VKTR.JK"
+    },
+    {
+      "code": "VOKS",
+      "ticker": "VOKS.JK"
+    },
+    {
+      "code": "VRNA",
+      "ticker": "VRNA.JK"
+    },
+    {
+      "code": "VTNY",
+      "ticker": "VTNY.JK"
+    },
+    {
+      "code": "WAPO",
+      "ticker": "WAPO.JK"
+    },
+    {
+      "code": "WEGE",
+      "ticker": "WEGE.JK"
+    },
+    {
+      "code": "WEHA",
+      "ticker": "WEHA.JK"
+    },
+    {
+      "code": "WGSH",
+      "ticker": "WGSH.JK"
+    },
+    {
+      "code": "WICO",
+      "ticker": "WICO.JK"
+    },
+    {
+      "code": "WIDI",
+      "ticker": "WIDI.JK"
+    },
+    {
+      "code": "WIFI",
+      "ticker": "WIFI.JK"
+    },
+    {
+      "code": "WIIM",
+      "ticker": "WIIM.JK"
+    },
+    {
+      "code": "WIKA",
+      "ticker": "WIKA.JK"
+    },
+    {
+      "code": "WINE",
+      "ticker": "WINE.JK"
+    },
+    {
+      "code": "WINR",
+      "ticker": "WINR.JK"
+    },
+    {
+      "code": "WINS",
+      "ticker": "WINS.JK"
+    },
+    {
+      "code": "WIRG",
+      "ticker": "WIRG.JK"
+    },
+    {
+      "code": "WMPP",
+      "ticker": "WMPP.JK"
+    },
+    {
+      "code": "WMUU",
+      "ticker": "WMUU.JK"
+    },
+    {
+      "code": "WOMF",
+      "ticker": "WOMF.JK"
+    },
+    {
+      "code": "WOOD",
+      "ticker": "WOOD.JK"
+    },
+    {
+      "code": "WOWS",
+      "ticker": "WOWS.JK"
+    },
+    {
+      "code": "WSBP",
+      "ticker": "WSBP.JK"
+    },
+    {
+      "code": "WSKT",
+      "ticker": "WSKT.JK"
+    },
+    {
+      "code": "WTON",
+      "ticker": "WTON.JK"
+    },
+    {
+      "code": "YELO",
+      "ticker": "YELO.JK"
+    },
+    {
+      "code": "YOII",
+      "ticker": "YOII.JK"
+    },
+    {
+      "code": "YPAS",
+      "ticker": "YPAS.JK"
+    },
+    {
+      "code": "YULE",
+      "ticker": "YULE.JK"
+    },
+    {
+      "code": "YUPI",
+      "ticker": "YUPI.JK"
+    },
+    {
+      "code": "ZATA",
+      "ticker": "ZATA.JK"
+    },
+    {
+      "code": "ZBRA",
+      "ticker": "ZBRA.JK"
+    },
+    {
+      "code": "ZINC",
+      "ticker": "ZINC.JK"
+    },
+    {
+      "code": "ZONE",
+      "ticker": "ZONE.JK"
+    },
+    {
+      "code": "ZYRX",
+      "ticker": "ZYRX.JK"
+    }
+  ]
+}
