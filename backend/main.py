@@ -10,7 +10,11 @@ from scan_cache import scan_cache
 
 STATIC_DIR = Path(__file__).parent / "static"
 
-app = FastAPI(title="IHSG Day Trading Recommender", version="2.0.0")
+app = FastAPI(
+    title="IHSG Day Trading Recommender",
+    version="2.0.0",
+    description="DayTrade Pro — Created by Achmad Maulana Siregar, S.M.",
+)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

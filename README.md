@@ -11,6 +11,8 @@ license: mit
 
 # DayTrade Pro — Rekomendasi Saham Day Trading IHSG
 
+**Created by Achmad Maulana Siregar, S.M.**
+
 Aplikasi web untuk menganalisis **seluruh saham terdaftar IHSG** (~955 emiten) berdasarkan indikator teknikal day trading.
 
 ## Fitur

@@ -324,6 +324,20 @@ export default function App() {
           </p>
         )}
       </main>
+
+      <footer className="border-t border-gray-800 mt-8">
+        <div className="max-w-7xl mx-auto px-4 py-6 text-center space-y-1">
+          <p className="text-sm text-gray-400">
+            © {new Date().getFullYear()} DayTrade Pro
+          </p>
+          <p className="text-xs text-gray-500">
+            Created by{' '}
+            <span className="text-accent-green font-medium">
+              Achmad Maulana Siregar, S.M.
+            </span>
+          </p>
+        </div>
+      </footer>
     </div>
   )
 }
