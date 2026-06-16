@@ -1,3 +1,6 @@
+from trading_params import DEFAULT_PARAMS, TradingParams
+
+
 def round_idx_price(price: float) -> float:
     if price >= 5000:
         return round(price / 25) * 25
@@ -8,7 +11,13 @@ def round_idx_price(price: float) -> float:
     return round(price)
 
 
-def calculate_trade_plan(action: str, row: dict, enriched: list[dict]) -> dict:
+def calculate_trade_plan(
+    action: str,
+    row: dict,
+    enriched: list[dict],
+    params: TradingParams | None = None,
+) -> dict:
+    p = params or DEFAULT_PARAMS
     price = row["close"]
     atr = row.get("atr") or price * 0.02
 
@@ -21,13 +30,13 @@ def calculate_trade_plan(action: str, row: dict, enriched: list[dict]) -> dict:
 
     if action == "BUY":
         entry = ema9 if ema9 and ema9 < price else price
-        sl_atr = price - 1.5 * atr
+        sl_atr = price - p.sl_atr_mult * atr
         sl = max(sl_atr, swing_low * 0.998)
         if bb_lower and bb_lower < price:
             sl = max(sl, bb_lower * 0.998)
 
-        tp1 = price + 1.5 * atr
-        tp2 = price + 2.5 * atr
+        tp1 = price + p.tp1_atr_mult * atr
+        tp2 = price + p.tp2_atr_mult * atr
         if bb_upper and bb_upper > price:
             tp2 = min(tp2, bb_upper)
 
@@ -42,18 +51,18 @@ def calculate_trade_plan(action: str, row: dict, enriched: list[dict]) -> dict:
             tp1=tp1,
             tp2=tp2,
             rr=rr,
-            note="Entry long, SL di bawah swing low / 1.5×ATR",
+            note=f"Entry long, SL {p.sl_atr_mult}x ATR, TP1 {p.tp1_atr_mult}x ATR",
         )
 
     if action == "SELL":
         entry = ema9 if ema9 and ema9 > price else price
-        sl_atr = price + 1.5 * atr
+        sl_atr = price + p.sl_atr_mult * atr
         sl = min(sl_atr, swing_high * 1.002)
         if bb_upper and bb_upper > price:
             sl = min(sl, bb_upper * 1.002)
 
-        tp1 = price - 1.5 * atr
-        tp2 = price - 2.5 * atr
+        tp1 = price - p.tp1_atr_mult * atr
+        tp2 = price - p.tp2_atr_mult * atr
         if bb_lower and bb_lower < price:
             tp2 = max(tp2, bb_lower)
 
@@ -68,10 +77,9 @@ def calculate_trade_plan(action: str, row: dict, enriched: list[dict]) -> dict:
             tp1=tp1,
             tp2=tp2,
             rr=rr,
-            note="Entry short/jual, SL di atas swing high / 1.5×ATR",
+            note=f"Entry short, SL {p.sl_atr_mult}x ATR, TP1 {p.tp1_atr_mult}x ATR",
         )
 
-    # HOLD — level referensi konservatif
     sl = price - 1.0 * atr
     tp1 = price + 1.0 * atr
     return _plan(
@@ -90,6 +98,12 @@ def _plan(side: str, entry: float, sl: float, tp1: float, tp2: float, rr: float 
     sl_r = round_idx_price(sl)
     tp1_r = round_idx_price(tp1)
     tp2_r = round_idx_price(tp2)
+
+    # Pastikan SL di sisi yang benar untuk long/short
+    if side == "long" and sl_r >= entry_r:
+        sl_r = round_idx_price(entry - abs(entry - sl))
+    if side == "short" and sl_r <= entry_r:
+        sl_r = round_idx_price(entry + abs(sl - entry))
 
     risk_abs = abs(entry_r - sl_r)
     reward_abs = abs(tp1_r - entry_r)

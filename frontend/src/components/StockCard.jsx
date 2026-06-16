@@ -18,7 +18,7 @@ const actionIcons = {
 
 function ScoreRing({ score }) {
   const color =
-    score >= 75 ? '#00d4aa' : score <= 32 ? '#ff4757' : '#ffa502'
+    score >= 72 ? '#00d4aa' : score <= 32 ? '#ff4757' : '#ffa502'
   const circumference = 2 * Math.PI * 36
   const offset = circumference - (score / 100) * circumference
 

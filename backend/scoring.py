@@ -1,4 +1,7 @@
-MIN_DAILY_TURNOVER_IDR = 5_000_000_000  # Rp 5 Miliar
+"""Parameter trading & scoring — dikalibrasi via backtest YTD 2026."""
+from trading_params import DEFAULT_PARAMS, TREND_BULLISH, TREND_BEARISH, TradingParams
+
+MIN_DAILY_TURNOVER_IDR = DEFAULT_PARAMS.min_daily_turnover
 
 SCORE_METHODOLOGY = {
     "base": 50,
@@ -11,15 +14,21 @@ SCORE_METHODOLOGY = {
         "news_bearish": "-5 s/d -10",
     },
     "buy_requirements": [
-        "Skor ≥ 75",
-        "Min. 2 sinyal bullish",
-        "Konfirmasi tren (MACD cross / harga > EMA9/21)",
-        "Nilai transaksi rata-rata ≥ Rp 5 M/hari",
+        f"Skor ≥ {DEFAULT_PARAMS.min_buy_score}",
+        f"Min. {DEFAULT_PARAMS.min_bullish_signals} sinyal bullish",
+        "Konfirmasi tren (MACD cross / harga > EMA9/21 / volume spike)",
+        f"Nilai transaksi rata-rata ≥ Rp {DEFAULT_PARAMS.min_daily_turnover / 1e9:.0f} M/hari",
+        f"Risk:Reward ≥ {DEFAULT_PARAMS.min_risk_reward}",
     ],
     "sell_requirements": [
-        "Skor ≤ 32",
-        "Min. 2 sinyal bearish",
+        f"Skor ≤ {DEFAULT_PARAMS.min_sell_score}",
+        f"Min. {DEFAULT_PARAMS.min_bearish_signals} sinyal bearish",
     ],
+    "trade_plan": {
+        "sl_atr_mult": DEFAULT_PARAMS.sl_atr_mult,
+        "tp1_atr_mult": DEFAULT_PARAMS.tp1_atr_mult,
+        "max_gap_entry_pct": DEFAULT_PARAMS.max_gap_entry_pct,
+    },
 }
 
 
@@ -71,26 +80,22 @@ def determine_action(
     score: int,
     signals: list[dict],
     liquidity_ok: bool,
+    params: TradingParams | None = None,
 ) -> tuple[str, str | None]:
+    p = params or DEFAULT_PARAMS
     bullish = [s for s in signals if s["type"] == "bullish"]
     bearish = [s for s in signals if s["type"] == "bearish"]
 
-    has_trend = any(
-        s["name"] in ("MACD Bullish Cross", "Price Above EMA9/21", "Volume Spike")
-        for s in bullish
-    )
-    has_downtrend = any(
-        s["name"] in ("MACD Bearish Cross", "Price Below EMA9/21")
-        for s in bearish
-    )
+    has_trend = any(s["name"] in TREND_BULLISH for s in bullish)
+    has_downtrend = any(s["name"] in TREND_BEARISH for s in bearish)
 
     if not liquidity_ok:
-        return "HOLD", "Likuiditas rendah (< Rp 5M/hari)"
+        return "HOLD", f"Likuiditas rendah (< Rp {p.min_daily_turnover / 1e9:.0f} M/hari)"
 
-    if score >= 75 and len(bullish) >= 2 and has_trend:
+    if score >= p.min_buy_score and len(bullish) >= p.min_bullish_signals and has_trend:
         return "BUY", None
 
-    if score <= 32 and len(bearish) >= 2 and has_downtrend:
+    if score <= p.min_sell_score and len(bearish) >= p.min_bearish_signals and has_downtrend:
         return "SELL", None
 
     return "HOLD", None

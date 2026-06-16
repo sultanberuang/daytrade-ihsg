@@ -149,7 +149,7 @@ export default function StockTable({ stocks, onSelect, sortField, sortOrder, onS
                 </td>
                 <td className="px-4 py-3 text-center">
                   <span className={`inline-block font-mono font-bold text-xs px-2 py-1 rounded-md ${
-                    stock.score >= 75 ? 'text-emerald-400' : stock.score <= 32 ? 'text-red-400' : 'text-amber-400'
+                    stock.score >= 72 ? 'text-emerald-400' : stock.score <= 32 ? 'text-red-400' : 'text-amber-400'
                   }`}>
                     {stock.score}
                   </span>

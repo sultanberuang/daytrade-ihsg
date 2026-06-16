@@ -11,6 +11,7 @@ from scoring import (
     determine_action,
     SCORE_METHODOLOGY,
 )
+from trading_params import DEFAULT_PARAMS
 
 
 def latest_signals(row: dict, prev: dict) -> list[dict]:
@@ -119,6 +120,12 @@ def analyze_ticker(ticker: str) -> dict | None:
 
         change_pct = ((row["close"] - prev["close"]) / prev["close"]) * 100
         trade_plan = calculate_trade_plan(action, row, enriched)
+
+        if action == "BUY" and trade_plan.get("risk_reward") is not None:
+            if trade_plan["risk_reward"] < DEFAULT_PARAMS.min_risk_reward:
+                action = "HOLD"
+                reasons.append(f"○ R:R {trade_plan['risk_reward']} < {DEFAULT_PARAMS.min_risk_reward}")
+                trade_plan = calculate_trade_plan(action, row, enriched)
         sparkline = [round(b["close"], 2) for b in enriched[-10:]]
 
         return {
@@ -151,6 +158,7 @@ def analyze_ticker(ticker: str) -> dict | None:
                 "sentiment": sentiment,
                 "headlines": headlines[:5],
             },
+            "_params_v": 2,
         }
     except Exception:
         return None

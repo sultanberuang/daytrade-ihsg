@@ -1,0 +1,34 @@
+{
+  "baseline": {
+    "total": 583,
+    "filled": 192,
+    "tp1": 17,
+    "sl": 33,
+    "open": 142,
+    "no_entry": 391,
+    "win_rate": 8.9,
+    "sl_rate": 17.2,
+    "avg_open_pnl": 0.09,
+    "fitness": -3.6991666666666654
+  },
+  "best": {
+    "total": 412,
+    "filled": 104,
+    "tp1": 14,
+    "sl": 21,
+    "open": 69,
+    "no_entry": 308,
+    "win_rate": 13.5,
+    "sl_rate": 20.2,
+    "avg_open_pnl": 0.37,
+    "fitness": 2.378722786647315,
+    "params": {
+      "min_buy_score": 72,
+      "min_bullish_signals": 2,
+      "sl_atr_mult": 2.5,
+      "tp1_atr_mult": 0.8,
+      "min_risk_reward": 1.5,
+      "max_gap_entry_pct": 2.0
+    }
+  }
+}
